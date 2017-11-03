@@ -132,6 +132,10 @@
 		margin-top:.2rem;
 		font-size:.28rem;
 		color:#212121;
+		white-space:nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		
 	}
 	.swiper-pagination-bullet {
 		background: rgba(144,144,144,.8);

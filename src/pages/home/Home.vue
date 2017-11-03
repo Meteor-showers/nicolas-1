@@ -16,7 +16,7 @@ export default {
 	components: {
 		"home-header": HeaderComponent,
 		"swiper-content": SwiperComponent,
-		"navigation": NavigationComponent
+		"navigation": NavigationComponent,
 	}
 }
 </script>
