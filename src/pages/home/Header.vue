@@ -1,6 +1,6 @@
 <template>
  	<header class="header">
- 		<div class="header-left iconfont icon-fanhui"></div>
+ 		<div class="header-left iconfont icon-back"></div>
  		<div class="header-title">	 		
 		 			输入城市/景点/游玩主题		 			
  		</div>
@@ -23,6 +23,7 @@ export default {
 		position: relative;
 		height: .88rem;
 		background: #00bcd4;
+		overflow:hidden;
 	}
 	.header-left {
 		float: left;
