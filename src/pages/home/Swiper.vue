@@ -26,27 +26,22 @@
     	data() {
 			return {
 				swiperOption: {
-          			autoplay: 3000,
-          			direction: 'horizontal',
+          		autoplay: 3000,
+          		direction: 'horizontal',
          			autoHeight: true,
-          			pagination: '.swiper-pagination',
+          		pagination: '.swiper-pagination',
         			observeParents: true,
         		}
       		} 
     	},
 
     	components: {
-      		swiper,
+      	swiper,
     		swiperSlide
 		}
 	}
 </script>
 
-<style>
-	.swiper-pagination-bullet {
-		background: #00bcd4;
-	}
-</style>
 
 <style scoped>
 	.swiper-img-con {
@@ -59,4 +54,7 @@
 	.swiper-img {
 		width: 100%;
 	}
+   .swiper-pagination-bullet {
+    background: #00bcd4;
+  }
 </style>
