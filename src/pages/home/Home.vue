@@ -12,7 +12,7 @@
 <script>
 import HeaderComponent from "./Header";
 import SwiperComponent from "./Swiper";
-import NavigationComponent from "./Navigation"
+import NavigationComponent from "./Navigation";
 import ActivityComponent from "./activity";
 import LazyComponent from "./Lazy";
 import WeekComponent from "./Week";
