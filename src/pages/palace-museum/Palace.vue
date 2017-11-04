@@ -12,7 +12,7 @@
 	export default {
 		components: {
 			"palace-header": HeaderComponent,
-			"comment-content": CommentComponent
+			"Comment-content": CommentComponent
 	  }
    }
 </script>
