@@ -2,11 +2,13 @@
  	<header class="header">
  		<div class="header-left iconfont icon-back"></div>
  		<div class="header-title">
-		 			输入城市/景点/游玩主题
+		 	<div class="search-title">
+		 		<input class="search-title-input" id="search-input-bind" type="text" placeholder="输入城市或景点">
+		 	</div>
  		</div>
  		<div class="header-right">
 	 		<div class="header-city-wrapper">
-			 	<span class="header-city">北京</span>
+			 	<span class="header-search">搜索</span>
 		 	</div>
  		</div>
  	</header>
@@ -21,9 +23,12 @@ export default {
 <style>
 	.header {
 		position: relative;
-		height: .88rem;
-		background: #00bcd4;
-		overflow:hidden;
+	    width: 100%;
+	    height: .88rem;
+	    background: #00bcd4;
+	    overflow: hidden;
+	    text-align: center;
+	    color: #fff;
 	}
 	.header-left {
 		float: left;
@@ -44,6 +49,19 @@ export default {
 		text-indent: .2rem;
 		color: #ccc;
 	}
+	.search-title-input{
+		position: relative;
+		display: block;
+		width: 98%;
+		height: .4rem;
+		line-height: .4rem;
+		padding: .1rem 0rem .1rem .2rem;
+		border:0;
+		/*font-family: "Microsoft Yahei",Arial";*/
+		font-weight: bold;
+		font-size:.28rem;
+		border-radius: .06rem;
+	}
 	.header-right {
 		float: right;
 		width: 1.28rem;
@@ -51,27 +69,4 @@ export default {
 		text-align: center;
 		color: #fff;
 	}
-	.header-city-wrapper{
-		position:relative;		
-		padding-right:.3rem;
-	}
-	.header-city{
-		overflow:hidden;
-		display:inline-block;
-		width:1rem;
-		white-space:nowrap;
-		text-overflow:ellipsis;
-	}
-	.header-city::after{
-		content:"\0020";
-		position:absolute;
-		top:.4rem;
-		right:.14rem;
-		width:0;
-		height:0;
-		border-width:.1rem;
-		border-style:solid;
-		border-color:#fff transparent transparent transparent;
-	}
-	
 </style>
