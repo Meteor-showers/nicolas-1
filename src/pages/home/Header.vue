@@ -1,8 +1,8 @@
 <template>
  	<header class="header">
  		<div class="header-left iconfont icon-back"></div>
- 		<div class="header-title">	 		
-		 			输入城市/景点/游玩主题		 			
+ 		<div class="header-title">
+		 			输入城市/景点/游玩主题
  		</div>
  		<div class="header-right">
 	 		<div class="header-city-wrapper">
