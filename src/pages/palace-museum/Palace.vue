@@ -1,9 +1,9 @@
 <template>
 	<div>
-		<Comment-content/>
-		<bottom-content/>
 		<palace-header/>
 		<Ticketype-content/>
+		<Comment-content/>
+		<bottom-content/>
 	</div>
 </template>
 
@@ -16,9 +16,9 @@
 	export default {
 		components: {
 			"palace-header": HeaderComponent,
+			"Ticketype-content": TicketypeComponent,
 			"Comment-content": CommentComponent,
-			"bottom-content": bottomComponent,
-			"Ticketype-content": TicketypeComponent
+			"bottom-content": bottomComponent
 	  }
    }
 </script>
