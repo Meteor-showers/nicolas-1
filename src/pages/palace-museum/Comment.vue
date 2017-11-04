@@ -1,5 +1,6 @@
 <template>
-	<div class="coment-container">
+	<h2>用户评论</h2>
+	<!--<div class="coment-container">
 		<h2>用户评论</h2>
 		<div class="coment-container-list">
 			<div class="coment-container-item">
@@ -19,7 +20,7 @@
 			</div>
 		</div>
  		
- 	</div>
+ 	</div>-->
 </template>
 
 <script>
