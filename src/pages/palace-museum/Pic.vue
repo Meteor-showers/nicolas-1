@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="content">
         <div class="ico iconfont icon-fanhui"></div>
         <div class="imgs">
             <swiper :options="swiperOption" ref="mySwiper">
@@ -40,6 +40,12 @@
 
 
 <style>
+    html{
+        background: #000;
+    }
+    .content{
+        margin-top: 3rem;
+    }
     .ico{
         position: absolute;
         width: .6rem;
