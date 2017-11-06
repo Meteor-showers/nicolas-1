@@ -261,6 +261,10 @@
 		color:#616161;
 		display:inline-block;
 		padding-top:.1rem;
+		overflow: hidden;
+		text-overflow:ellipsis;
+		white-space: nowrap;
+
 
 	}
 
