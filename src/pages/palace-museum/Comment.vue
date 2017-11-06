@@ -87,10 +87,7 @@
 	 		<span>F</span>
  		</div>
 		</div>
-				
-		
  	</div>
- 	
 </template>
 
 <script>
@@ -170,8 +167,6 @@ export default {
 	    line-height: .8rem;
 	    text-align: center;
 	    z-index: 2;
-	    margin-top: .1rem;
-	    
     }
     .check-f span{
         margin-left: .1rem;

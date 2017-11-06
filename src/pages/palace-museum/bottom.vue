@@ -104,7 +104,7 @@
 		<div class="recomment-list">
 			<div class="recomment-list-item">
 				<img src="http://img1.qunarzz.com/sight/p0/1505/f5/f5f45e1a83537bcb.water.jpg_228x168_8bb97036.jpg">
-				<div class=" recomment-info">
+				<div class=" recomment-info none">
 					<h3>圆明园(4A)</h3>
 					<div class="recomment-price">
 						￥
@@ -145,6 +145,7 @@ export default {
 	    font-size: .3rem;
 	    line-height: .88rem;
 	    text-indent: .2rem;
+	    border-bottom:1px solid #dadada;
     }
     .recomment-list{
 	    overflow: hidden;
@@ -163,6 +164,10 @@ export default {
 	    padding-top: .2rem;
 	    margin-left: 2.02rem;
 	    height: 1.8rem;
+	    border-bottom: 1px solid #e0e0e0;
+    }
+    .none{
+    	border-bottom:none;
     }
     .recomment-info  h3{
 	    position: absolute;
