@@ -14,7 +14,7 @@
 
 <script>
 export default {
-	
+
 }
 </script>
 
@@ -52,7 +52,7 @@ export default {
 		color: #fff;
 	}
 	.header-city-wrapper{
-		position:relative;		
+		position:relative;
 		padding-right:.3rem;
 	}
 	.header-city{
@@ -73,5 +73,5 @@ export default {
 		border-style:solid;
 		border-color:#fff transparent transparent transparent;
 	}
-	
+
 </style>
