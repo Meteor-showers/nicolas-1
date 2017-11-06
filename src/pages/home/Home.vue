@@ -25,6 +25,14 @@ export default {
 		"Acitivity-view": ActivityComponent,
 		"lazy-content": LazyComponent,
 		"week-content": WeekComponent
+	},
+	mounted(){
+		// fetch('/users.html')
+		//   .then(function(response) {
+		//     return response.text()
+		//   }).then(function(body) {
+		//     document.body.innerHTML = body
+		//   })
 	}
 }
 </script>
