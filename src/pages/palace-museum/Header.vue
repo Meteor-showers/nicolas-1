@@ -20,14 +20,16 @@
 		<div class="infor">
 			<div class="location">
 				<p>
-					<span class="chk"></span>
+					<span class="wz iconfont icon-weizhi"></span>
 					北京市东城区景山前街4号
+					<span class="more iconfont icon-gengduo"></span>
 				</p>
 			</div>
 			<div class="intro">
 				<p>
-					<span class="chk"></span>
+					<span class="js iconfont icon-jieshao"></span>
 					查看景点简介及开放时间
+					<span class="more iconfont icon-gengduo"></span>
 				</p>
 			</div>
 		</div>
@@ -37,10 +39,7 @@
 			<i class="commentwords">144438评论</i>
 		</div>
 		<div class="announce">
-			<p>
-				<span class="con iconfont icon-laba"></span>
-				因重要活动需要，故宫博物院11月8日（周三）临时闭馆一天，11月9日（周四）正常开放。敬请谅解。
-			</p>
+			<span class="keywords iconfont icon-laba">因重要活动需要，故宫博物院11月8日（周三）临时闭馆一天，11月9日（周四）正常开放。敬请谅解。</span>
 		</div>
 	</div>	
 </template>
@@ -57,6 +56,16 @@
 
 
 <style>
+	.keywords{
+		width: 6.5rem;
+		display: inline-block;
+		overflow:hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	.icon-gengduo{
+		margin-left: 3rem;
+	}
 	.ico{
 		position: absolute;
 		width: .6rem;
@@ -160,9 +169,6 @@
 		padding-left: .23rem;
 		height: .88rem;
 		line-height: .88rem;
-		width: 100%;
-		overflow:hidden;
-		white-space: nowrap;
-		text-overflow: ellipsis;
+		overflow: hidden;
 	}
 </style>

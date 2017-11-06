@@ -3,9 +3,9 @@
 		<palace-header/>
 		<Comment-content/>
 		<bottom-content/>
-		
 	</div>
 </template>
+
 
 <script>
 	import HeaderComponent from "./Header";
@@ -16,12 +16,11 @@
 			"palace-header": HeaderComponent,
 			"Comment-content": CommentComponent,
 			"bottom-content": bottomComponent
-
+			
 	  }
    }
 </script>
 
 <style>
+
 </style>
-
-
