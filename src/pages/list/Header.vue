@@ -1,6 +1,8 @@
 <template>
  	<header class="header">
- 		<div class="header-left iconfont icon-back"></div>
+ 		<router-link to="/">
+ 			<div class="header-left iconfont icon-back"></div>
+ 		</router-link>
  		<div class="header-title">
 		 	<div class="search-title">
 		 		<input class="search-title-input" id="search-input-bind" type="text" placeholder="输入城市或景点">

@@ -1,6 +1,8 @@
 <template>
     <div class="content">
-        <div class="ico iconfont icon-fanhui"></div>
+        <router-link to="/palace-museum">
+            <div class="ico iconfont icon-fanhui"></div>
+        </router-link>
         <div class="imgs">
             <swiper :options="swiperOption" ref="mySwiper">
                 <swiper-slide><img class="img-con" src="./img/museum2.jpg"></swiper-slide>
