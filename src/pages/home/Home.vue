@@ -1,8 +1,8 @@
 <template>
 	<div>
  		<home-header/>
- 		<swiper-content/>
- 		<index-icon-swiper/>
+ 		<swiper-content :swiperInfo="swiperInfo"/>
+ 		<index-icon-swiper :IconSwiper="IconSwiper"/>
  		<Acitivity-view/>
  		<lazy-content/>
  		<week-content/>
@@ -16,8 +16,15 @@ import IconSwiper from "./components/IconSwiper"
 import ActivityComponent from "./components/activity";
 import LazyComponent from "./components/Lazy";
 import WeekComponent from "./components/Week";
+import axios from "axios";
 
 export default {
+	data() {
+		return {
+			swiperInfo: [],
+			IconSwiper: []
+		}
+	},
 	components: {
 		"home-header": HeaderComponent,
 		"swiper-content": SwiperComponent,
@@ -26,13 +33,25 @@ export default {
 		"lazy-content": LazyComponent,
 		"week-content": WeekComponent
 	},
+	methods: {
+		getHomeData(){
+			axios.get('/static/index.json')
+			.then(this.handleGetDataSucc.bind(this))
+			.catch(this.handleGetDataErr.bind(this))
+		},
+		handleGetDataSucc(response) {
+			if (response.status === 200) {
+				const {data} = response.data;
+				this.swiperInfo = data.swiperInfo;
+				this.IconSwiper = data.IconSwiper;
+			}
+		},
+		handleGetDataErr(error) {
+			console.log(error);
+		}
+	},
 	mounted(){
-		// fetch('/users.html')
-		//   .then(function(response) {
-		//     return response.text()
-		//   }).then(function(body) {
-		//     document.body.innerHTML = body
-		//   })
+		this.getHomeData();
 	}
 }
 </script>
