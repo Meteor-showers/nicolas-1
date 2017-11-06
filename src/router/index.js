@@ -30,10 +30,6 @@ export default new Router({
       name: 'Palace',
       component: Palace
     },
-    {
-      path: '/palace-museum/Header',
-      name: 'Header',
-      component: Header
-    },
+   
   ]
 })

@@ -1,6 +1,6 @@
 <template>
     <div class="content">
-        <router-link to="/palace-museum/Header">
+        <router-link to="/palace-museum">
             <div class="ico iconfont icon-fanhui"></div>
         </router-link>
         <div class="imgs">
