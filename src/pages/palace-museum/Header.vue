@@ -1,7 +1,9 @@
 <template>
 	<div>
 		<div class="header-container">
-			<div class="ico iconfont icon-fanhui"></div>
+			<router-link to="/">
+				<div class="ico iconfont icon-fanhui"></div>
+			</router-link>
 			<router-link to="/palace-museum/Pic">
 				<div class="header-wrap">
 					<img class="img-con" src="./img/museum1.jpg">
@@ -56,6 +58,9 @@
 
 
 <style>
+	html{
+		background: #fff;
+	}
 	.keywords{
 		width: 6.5rem;
 		display: inline-block;
@@ -63,8 +68,11 @@
 		white-space: nowrap;
 		text-overflow: ellipsis;
 	}
+	.wz,.js{
+		margin-right: .3rem;
+	}
 	.icon-gengduo{
-		margin-left: 3rem;
+		margin-left: 2.6rem;
 	}
 	.ico{
 		position: absolute;
