@@ -3,7 +3,7 @@
 		<h2>看了该景点的人还看了</h2>
 		<div class="recomment-list">
 			<div class="recomment-list-item">
-				<img src="./img/01.jpg">
+				<img src="http://img1.qunarzz.com/sight/p0/1501/f4/f467729126949c3a.water.jpg_228x168_3df8efda.jpg">
 				<div class=" recomment-info">
 					<h3>天安门广场</h3>
 					<div class="recomment-price">
@@ -23,7 +23,7 @@
 		</div>
 		<div class="recomment-list">
 			<div class="recomment-list-item">
-				<img src="./img/02.jpg">
+				<img src="http://img1.qunarzz.com/sight/p0/201405/12/51b63883c25f5d87af3c08bb016e2bd7.jpg_228x168_ec8547e9.jpg">
 				<div class=" recomment-info">
 					<h3>恭王府(5A)</h3>
 					<div class="recomment-price">
@@ -43,7 +43,7 @@
 		</div>
 		<div class="recomment-list">
 			<div class="recomment-list-item">
-				<img src="./img/03.jpg">
+				<img src="http://img1.qunarzz.com/sight/p0/1602/92/920e47352552c1c990.water.jpg_228x168_bf40890b.jpg">
 				<div class=" recomment-info">
 					<h3>天坛公园(5A)</h3>
 					<div class="recomment-price">
@@ -63,7 +63,7 @@
 		</div>
 		<div class="recomment-list">
 			<div class="recomment-list-item">
-				<img src="./img/04.jpg">
+				<img src="http://img1.qunarzz.com/sight/p0/1603/85/85c883189bf7293390.water.jpg_228x168_9d25e6f0.jpg">
 				<div class=" recomment-info">
 					<h3>什刹海(5A)</h3>
 					<div class="recomment-price">
@@ -83,7 +83,7 @@
 		</div>
 		<div class="recomment-list">
 			<div class="recomment-list-item">
-				<img src="./img/05.jpg">
+				<img src="http://img1.qunarzz.com/sight/p0/1508/fe/434ee530e21f1c11bad088e8cc8d5e93.water.jpg_228x168_6572dd12.jpg">
 				<div class=" recomment-info">
 					<h3>鸟巢(5A)</h3>
 					<div class="recomment-price">
@@ -103,7 +103,7 @@
 		</div>
 		<div class="recomment-list">
 			<div class="recomment-list-item">
-				<img src="./img/06.jpg">
+				<img src="http://img1.qunarzz.com/sight/p0/1505/f5/f5f45e1a83537bcb.water.jpg_228x168_8bb97036.jpg">
 				<div class=" recomment-info">
 					<h3>圆明园(4A)</h3>
 					<div class="recomment-price">

@@ -14,6 +14,12 @@
 						<li><img src="./img/museum3.jpg"></li>
 						<li><img src="./img/museum4.jpg"></li>
 						<li><img src="./img/museum5.jpg"></li>
+						<li><img src="http://img1.qunarzz.com/piao/fusion/1709/97/4b253b4f685bd02.jpg"></li>
+						<li><img src="http://img1.qunarzz.com/piao/fusion/1709/f3/d00a465647306e02.jpg"></li>
+						<li><img src="http://img1.qunarzz.com/piao/fusion/1709/4d/3ddcd92224397a02.jpg"></li>
+						<li><img src="http://img1.qunarzz.com/piao/fusion/1709/b2/89015b9a783c3102.jpg"></li>
+						<li><img src="http://img1.qunarzz.com/piao/fusion/1709/c3/a84ee5d149b73a02.jpg"></li>
+						<li><img src="http://img1.qunarzz.com/piao/fusion/1709/58/dc9febcf3b539b02.jpg"></li>
 					</ul>
 				</div>
 			</div>
@@ -25,12 +31,12 @@
 					<span>c*2&nbsp;&nbsp;2017-09-08</span>
 					<p>绝对应该到的一处景点，因为以前看网上评论忽略了要是从长安街，天安门进故宫，注意是单行，只许进不许出，西华门只是供工作人员出入，东华门，和神武门是出口，午门是进口，单向游玩，大家一定要注意，还有建议大家一定要卖珍宝馆和钟表馆的票，时间允许还是要请一个导游，注意要请经典专业的导游人员呦～售票窗口都有咨询～珍宝馆实际就是皇极殿，九龙壁就在那里，乾隆养老的地方呗，钟表馆就是奉先殿，门票建议网上预定，直接刷身份证很方便，最重要的是故宫每天最多接待8万人，遇到周六日，基本上午10点钟就没有门票啦，所以提前会好一些～</p>
 					<ul>
-						<li><img src="./img/museum1.jpg"></li>
-						<li><img src="./img/museum9.jpg"></li>
-						<li><img src="./img/museum7.jpg"></li>
-						<li><img src="./img/museum10.jpg"></li>
-						<li><img src="./img/museum11.jpg"></li>
-						<li><img src="./img/museum3.jpg"></li>
+						<li><img src="http://img1.qunarzz.com/piao/fusion/1708/de/02da6038919bc502.jpg"></li>
+						<li><img src="http://img1.qunarzz.com/piao/fusion/1708/3e/8078b77ad21a2a02.jpg"></li>
+						<li><img src="http://img1.qunarzz.com/piao/fusion/1708/11/38941021bd1e8a02.jpg"></li>
+						<li><img src="http://img1.qunarzz.com/piao/fusion/1708/9a/30f6292322d62a02.jpg"></li>
+						<li><img src="http://img1.qunarzz.com/piao/fusion/1708/12/bae90855e7669d02.jpg"></li>
+						<li><img src="http://img1.qunarzz.com/piao/fusion/1708/f3/e0dbbd9155c5c702.jpg"></li>
 					</ul>
 				</div>
 			</div>
