@@ -12,10 +12,10 @@
     		</ul>
     		<ul class="activity-bottom">
     			<li>
-    				<img src="./img/1685d2108b652302.png">
+    				<img src="../img/1685d2108b652302.png">
     			</li>
     			<li>
-    				<img src="./img/e395615b16fb1302.png">
+    				<img src="../img/e395615b16fb1302.png">
     			</li>
     		</ul>
     	</div>

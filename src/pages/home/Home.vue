@@ -2,7 +2,7 @@
 	<div>
  		<home-header/>
  		<swiper-content/>
- 		<navigaition/>
+ 		<index-icon-swiper/>
  		<Acitivity-view/>
  		<lazy-content/>
  		<week-content/>
@@ -10,18 +10,18 @@
 </template>
 
 <script>
-import HeaderComponent from "./Header";
-import SwiperComponent from "./Swiper";
-import NavigationComponent from "./Navigation"
-import ActivityComponent from "./activity";
-import LazyComponent from "./Lazy";
-import WeekComponent from "./Week";
+import HeaderComponent from "./components/Header";
+import SwiperComponent from "./components/Swiper";
+import IconSwiper from "./components/IconSwiper"
+import ActivityComponent from "./components/activity";
+import LazyComponent from "./components/Lazy";
+import WeekComponent from "./components/Week";
 
 export default {
 	components: {
 		"home-header": HeaderComponent,
 		"swiper-content": SwiperComponent,
-		"navigaition":NavigationComponent,
+		"index-icon-swiper":IconSwiper,
 		"Acitivity-view": ActivityComponent,
 		"lazy-content": LazyComponent,
 		"week-content": WeekComponent
