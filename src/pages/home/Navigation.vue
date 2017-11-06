@@ -12,10 +12,12 @@
 	    					<a href="#"><img class="nav-img-con" src="./img/2640cab202c41b02.png"></a>
 	    					<p class="keywords">动植物园</p>
 	    				</li>
-	    				<li class = "nav-img">
-	    					<a href="#"><img class="nav-img-con" src="./img/2640cab202c41b02.png"></a>
-	    					<p class="keywords">故宫</p>
-	    				</li>
+	    				<router-link to="/palace-museum">
+		    				<li class = "nav-img">
+		    					<a href="#"><img class="nav-img-con" src="./img/2640cab202c41b02.png"></a>
+		    					<p class="keywords">故宫</p>		   
+		    				</li>
+	    				</router-link>
 	    				<li class = "nav-img">
 	    					<a href="#"><img class="nav-img-con" src="./img/ffc620dbda9b9c02.png"></a>
 	    					<p class="keywords">一日游</p>
