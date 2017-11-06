@@ -18,16 +18,14 @@ export default new Router({
       path: '/list',
       name: 'list',
       component: List
-    },
-    {
-      path: '/palace-museum',
-      name: 'Palace',
-      component: Palace
-    },
-     {
+    },{
       path: '/palace-museum/Pic',
       name: 'Pic',
       component: Pic
+    },{
+      path: '/palace-museum',
+      name: 'Palace',
+      component: Palace
     }
   ]
 })
