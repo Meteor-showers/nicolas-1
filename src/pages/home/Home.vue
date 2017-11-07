@@ -3,9 +3,9 @@
  		<home-header/>
  		<swiper-content :swiperInfo="this.$store.state.swiperInfo"/>
  		<index-icon-swiper :IconSwiper="IconSwiper"/>
- 		<Acitivity-view/>
+ 		<!-- <Acitivity-view/> -->
  		<lazy-content/>
- 		<week-content/>
+ 		<!-- <week-content/> -->
  	</div>
 </template>
 
@@ -13,9 +13,9 @@
 import HeaderComponent from "./components/Header";
 import SwiperComponent from "./components/Swiper";
 import IconSwiper from "./components/IconSwiper";
-import ActivityComponent from "./components/activity";
+// import ActivityComponent from "./components/activity";
 import LazyComponent from "./components/Lazy";
-import WeekComponent from "./components/Week";
+// import WeekComponent from "./components/Week";
 import axios from "axios";
 
 export default {
@@ -28,9 +28,9 @@ export default {
 		"home-header": HeaderComponent,
 		"swiper-content": SwiperComponent,
 		"index-icon-swiper":IconSwiper,
-		"Acitivity-view": ActivityComponent,
+		// "Acitivity-view": ActivityComponent,
 		"lazy-content": LazyComponent,
-		"week-content": WeekComponent
+		// "week-content": WeekComponent
 	},
 	methods: {
 		getHomeData() {
