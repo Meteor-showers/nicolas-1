@@ -12,7 +12,7 @@
 <script>
 import HeaderComponent from "./components/Header";
 import SwiperComponent from "./components/Swiper";
-import IconSwiper from "./components/IconSwiper"
+import IconSwiper from "./components/IconSwiper";
 import ActivityComponent from "./components/activity";
 import LazyComponent from "./components/Lazy";
 import WeekComponent from "./components/Week";
