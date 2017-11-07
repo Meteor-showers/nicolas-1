@@ -1,7 +1,7 @@
 <template>
 	<div>
  		<home-header/>
- 		<swiper-content :swiperInfo="swiperInfo"/>
+ 		<swiper-content :swiperInfo="this.$store.state.swiperInfo"/>
  		<index-icon-swiper :IconSwiper="IconSwiper"/>
  		<Acitivity-view/>
  		<lazy-content/>
@@ -21,7 +21,6 @@ import axios from "axios";
 export default {
 	data() {
 		return {
-			swiperInfo: [],
 			IconSwiper: []
 		}
 	},
@@ -34,24 +33,25 @@ export default {
 		"week-content": WeekComponent
 	},
 	methods: {
-		getHomeData(){
+		getHomeData() {
 			axios.get('/static/index.json')
 			.then(this.handleGetDataSucc.bind(this))
 			.catch(this.handleGetDataErr.bind(this))
 		},
 		handleGetDataSucc(response) {
-			if (response.status === 200) {
+			if(response.status == 200){
 				const {data} = response.data;
 				this.swiperInfo = data.swiperInfo;
 				this.IconSwiper = data.IconSwiper;
 			}
 		},
 		handleGetDataErr(error) {
-			console.log(error);
+
 		}
 	},
 	mounted(){
 		this.getHomeData();
+		this.$store.dispatch("getSwiperInfo");
 	}
 }
 </script>
