@@ -1,36 +1,58 @@
 <template>
 	<div>
- 		<home-header/>
- 		<swiper-content :swiperInfo="this.$store.state.swiperInfo"/>
- 		<index-icon-swiper :IconSwiper="IconSwiper"/>
- 		<!--<Acitivity-view/>-->
- 		<index-hotsale :RecommendList="this.$store.state.RecommendList"/>
- 		<!--<week-content/>-->
+ 		<home-header />
+ 		<swiper-content />
+ 		<index-icon-swiper />
+ 		<Acitivity-view />
+ 		<index-hotsale />
+ 		<week-content />
  	</div>
 </template>
 
 <script>
 import HeaderComponent from "./components/Header";
 import SwiperComponent from "./components/Swiper";
-import IconSwiper from "./components/IconSwiper"
-//import ActivityComponent from "./components/activity";
+import IconSwiper from "./components/IconSwiper";
+import ActivityComponent from "./components/activity";
 import Recommend from "./components/RecommendList";
-//import WeekComponent from "./components/Week";
-import axios from "axios";
-
+import WeekComponent from "./components/Week";
+import axios from 'axios';
 export default {
 	data() {
 		return {
+			acitivityInfo: [],
 			IconSwiper: []
 		}
 	},
+	
+
 	components: {
 		"home-header": HeaderComponent,
 		"swiper-content": SwiperComponent,
 		"index-icon-swiper":IconSwiper,
-//		"Acitivity-view": ActivityComponent,
+		"Acitivity-view": ActivityComponent,
 		"index-hotsale": Recommend,
-//		"week-content": WeekComponent
+		"week-content": WeekComponent
+	},
+	methods: {
+		
+		getHomeData() {
+			axios.get('/static/index.json')
+				.then(this.handleGetDataSucc.bind(this))
+				.catch(this.handleGetDataErr.bind(this))
+		},
+		handleGetDataSucc(response) {
+			if (response.status === 200) {
+				this.acitivityInfo = response.data.data.acitivityInfo;
+			}
+		},
+		handleGetDataErr(err) {
+			console.log(err);
+		}
+	},
+	mounted() {
+		this.getHomeData();
+
 	},
 	methods: {
 		getHomeData() {
