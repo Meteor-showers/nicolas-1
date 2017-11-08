@@ -1,0 +1,15 @@
+{
+	"ret": true,
+	"data": {
+		"acitivityInfo": [{
+			"id":1,
+			"imgUrl": "/static/img/1685d2108b652302.png",
+			"link": "/list"
+		}, {
+			"id":2,
+			"imgUrl":"/static/img/e395615b16fb1302.png",
+			"link": "/list"
+		}]
+	}
+	
+}
