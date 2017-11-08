@@ -22,7 +22,7 @@ export default {
 			state.swiperInfo = data.swiperInfo;
 			state.weekendInfo = data.weekendInfo;
 			state.recommendInfo = data.recommendInfo;
-		},
+		}
 	},
 	getters: {
 		shouldGetData(state) {

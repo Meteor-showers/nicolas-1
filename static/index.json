@@ -1,7 +1,6 @@
 {
 	"ret": true,
 	"data": {
-<<<<<<< HEAD
 		"acitivityInfo": [{
 			"id":1,
 			"imgUrl": "/static/img/1685d2108b652302.png",
@@ -12,8 +11,6 @@
 			"link": "/list"
 		}]
 	}
-	
-=======
 		"swiperInfo": [{
 			"id": 1,
 			"imgUrl": "http://img1.qunarzz.com/piao/fusion/1609/15/630b82d932a3c402.jpg_640x200_862e836b.jpg",
@@ -153,5 +150,4 @@
 		    "specificInfo":"11"
 		}]
 	}
->>>>>>> 4fb2ef90a124d23115a40e7bb53790ae22033fe0
 }

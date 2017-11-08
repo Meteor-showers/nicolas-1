@@ -17,15 +17,9 @@ import ActivityComponent from "./components/activity";
 import Recommend from "./components/RecommendList";
 import WeekComponent from "./components/Week";
 import axios from 'axios';
-export default {
-	data() {
-		return {
-			acitivityInfo: [],
-			IconSwiper: []
-		}
-	},
-	
 
+export default {
+	
 	components: {
 		"home-header": HeaderComponent,
 		"swiper-content": SwiperComponent,
@@ -34,47 +28,12 @@ export default {
 		"index-hotsale": Recommend,
 		"week-content": WeekComponent
 	},
-	methods: {
-		
-		getHomeData() {
-			axios.get('/static/index.json')
-				.then(this.handleGetDataSucc.bind(this))
-				.catch(this.handleGetDataErr.bind(this))
-		},
-		handleGetDataSucc(response) {
-			if (response.status === 200) {
-				this.acitivityInfo = response.data.data.acitivityInfo;
-			}
-		},
-		handleGetDataErr(err) {
-			console.log(err);
-		}
-	},
+	
 	mounted() {
-		this.getHomeData();
-
-	},
-	methods: {
-		getHomeData() {
-			axios.get('/static/index.json')
-			.then(this.handleGetDataSucc.bind(this))
-			.catch(this.handleGetDataErr.bind(this))
-		},
-		handleGetDataSucc(response) {
-			if(response.status == 200){
-				const {data} = response.data;
-				this.swiperInfo = data.swiperInfo;
-				this.IconSwiper = data.IconSwiper;
-				this.RecommendList = data.RecommendList;
-			}
-		},
-		handleGetDataErr(error) {
-
+		if (this.$store.getters.shouldGetData) {
+		this.$store.dispatch("getIndexInfo");
+			
 		}
-	},
-	mounted(){
-		this.getHomeData();
-		this.$store.dispatch("getSwiperInfo");
 	}
 }
 </script>
