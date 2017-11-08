@@ -38,7 +38,7 @@
  							<span class="prdcard-font">无购物</span>
  						</div>
  					</div>
- 					<div class="comments-con">
+ 					<div class="comments-con" style="margin-bottom:0;">
  						<span class="comments-con-num">4.9</span>
  						<span class="comments-text">分</span>
  						<span class="comments-good">非常满意</span>
@@ -48,6 +48,17 @@
  						</span>
  					</div>
  				</div>
+ 				<div class="comments-pl">
+ 						<div class="comments-pl-item">
+ 							<div class="conent-level">
+ 									<strong class="level-star-gain">BBBBB</strong>
+ 									<span class="level-comments">l*8 &nbsp;&nbsp; 2017-11-07</span>
+ 								<p class="message">
+ 									不错时间安排的很紧凑人导游也很尽心尽责下次还推荐朋友
+ 								</p>
+ 							</div>
+ 						</div>
+ 					</div>
  	</div>
  	
 </template>
@@ -138,6 +149,7 @@ export default {
 	    margin-top: -.1rem;
 	    padding: .2rem .2rem 0 .2rem;
 	    background: #fff;
+    	border-radius: .1rem .1rem 0 0;
 	}
 	.tourism-prdcard-name{
 		overflow: hidden;
@@ -202,13 +214,12 @@ export default {
     	color: #616161;
     }
     .comments-con{
-    	margin-bottom:0;
     	position:relative;
     	margin-top:.2rem;
     	background:#fff;
     	height:.8rem;
     	line-height:.8rem;
-    	border-bottom:1px solid #9E9E9E;
+    	border-bottom:1px solid #ccc;
     }
     .comments-con-num{
 	    font-size: .4rem;
@@ -240,5 +251,33 @@ export default {
 	    position: relative;
 	    top: .02rem;
 	    font-size: .24rem;
+    }
+    .comments-pl{
+    	position:relative;
+    	padding: .1rem .2rem;
+    	background: #fff;
+    }
+    .comments-pl-item{
+    	padding: .2rem 0 !important;
+    	width:100%;
+    	color:#616161;    
+    }
+    .conent-level{
+    	color:#616161;
+    }
+    .level-star-gain{
+    	width:100%;
+    	z-index:2;
+    	color:#00bcd4;
+    }
+    .level-comments{
+	    float: right;
+	    margin-left: .2rem;
+	    color: #616161;
+    }
+    .message{
+    	line-height: .4rem;
+    	overflow: hidden;
+    	text-overflow: ellipsis;
     }
 </style>
