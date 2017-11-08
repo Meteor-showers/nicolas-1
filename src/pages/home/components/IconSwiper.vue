@@ -1,17 +1,29 @@
 <template>
 	<div class="nav-container">	
 	    <swiper :options="swiperOption" ref="mySwiper">
-	    	<swiper-slide v-for="item in IconSwiper" :key="item.id">
-	    	<router-link to="/list">
+	    	<swiper-slide>	    	
 	    		<div class="nav-swiper">
 	    			<ul>
-	    				<li class = "nav-img">
-	    					<p class="nav-img1"><img class="nav-img-con" :src="item.imgUrl" alt="景点门票"></p>
-	    					<p class="keywords">{{item.Intro}}</p>
+	    				<li class = "nav-img"  v-for="(item,index) in IconSwiper" :key="item.id" v-if='index<=7'>
+	    					<router-link to="/list">
+		    					<p class="nav-img1"><img class="nav-img-con" :src="item.imgUrl" alt="景点门票"></p>
+		    					<p class="keywords">{{item.Intro}}</p>
+		    				</router-link>
 	    				</li>	    				
 	    			</ul>
-	    		</div>
-	    	</router-link>
+	    		</div>	    	
+	    	</swiper-slide>
+	    	<swiper-slide>	    	
+	    		<div class="nav-swiper">
+	    			<ul>
+	    				<li class = "nav-img"  v-for="(item,index) in IconSwiper" :key="item.id" v-if='index>7'>
+	    					<router-link to="/list">
+		    					<p class="nav-img1"><img class="nav-img-con" :src="item.imgUrl" alt="景点门票"></p>
+		    					<p class="keywords">{{item.Intro}}</p>
+		    				</router-link>
+	    				</li>	    				
+	    			</ul>
+	    		</div>	    	
 	    	</swiper-slide>
 	    	<div class="swiper-pagination"  slot="pagination"></div>
 		</swiper>
@@ -22,8 +34,8 @@
 
 
 <script>
-	import { swiper, swiperSlide } from 'vue-awesome-swiper'
-
+	import { swiper, swiperSlide } from 'vue-awesome-swiper';
+	import axios from "axios";
 	  	export default {
 	  		props: ['IconSwiper'],
 	    	data() {

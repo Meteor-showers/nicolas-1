@@ -16,82 +16,82 @@
 		}],
 		"IconSwiper": [{
 			"id":1,
-			"imgUrl": "../img/ace00878a52d9702.png",
+			"imgUrl": "static/img/ace00878a52d9702.png",
 			"link": "/list",
 			"Intro": "景点门票"
 		},{
 			"id":2,
-			"imgUrl": "../img/2640cab202c41b02.png",
+			"imgUrl": "static/img/2640cab202c41b02.png",
 			"link": "/list",
 			"Intro": "动植物园"
 		},{
 			"id":3,
-			"imgUrl": "../img/2640cab202c41b02.png",
+			"imgUrl": "static/img/2640cab202c41b02.png",
 			"link": "/list",
 			"Intro": "故宫"
 		},{
 			"id":4,
-			"imgUrl": "../img/ffc620dbda9b9c02.png",
+			"imgUrl": "static/img/ffc620dbda9b9c02.png",
 			"link": "/list",
 			"Intro": "一日游"
 		},{
 			"id":5,
-			"imgUrl": "../img/569d3c096e542502.png",
+			"imgUrl": "static/img/569d3c096e542502.png",
 			"link": "/list",
 			"Intro": "必游榜单"
 		},{
 			"id":6,
-			"imgUrl": "../img/a8a8d9023a814c02.png",
+			"imgUrl": "static/img/a8a8d9023a814c02.png",
 			"link": "/list",
 			"Intro": "秋色美"
 		},{
 			"id":7,
-			"imgUrl": "../img/e09575e66f4aa402.png",
+			"imgUrl": "static/img/e09575e66f4aa402.png",
 			"link": "/list",
 			"Intro": "游乐场"
 		},{
 			"id":8,
-			"imgUrl": "../img/83f636bd75ae6302.png",
+			"imgUrl": "static/img/83f636bd75ae6302.png",
 			"link": "/list",
 			"Intro": "泡温泉"
 		},{
 			"id":9,
-			"imgUrl": "../img/b1ea3c8c7fb6db02.png",
+			"imgUrl": "static/img/b1ea3c8c7fb6db02.png",
 			"link": "/list",
 			"Intro": "城市风光"
 		},{
 			"id":10,
-			"imgUrl": "../img/c16cd064d85d8502.png",
+			"imgUrl": "static/img/c16cd064d85d8502.png",
 			"link": "/list",
 			"Intro": "玻璃栈道"
 		},{
 			"id":11,
-			"imgUrl": "../img/a8a8d9023a814c02.png",
+			"imgUrl": "static/img/a8a8d9023a814c02.png",
 			"link": "/list",
 			"Intro": "名胜古迹"
 		},{
 			"id":12,
-			"imgUrl": "../img/71eb19f77e3f21f7.png",
+			"imgUrl": "static/img/71eb19f77e3f21f7.png",
 			"link": "/list",
 			"Intro": "周边游"
 		},{
 			"id":13,
-			"imgUrl": "../img/07f33cc087f18d02.png",
+			"imgUrl": "static/img/07f33cc087f18d02.png",
 			"link": "/list",
 			"Intro": "自然风光"
 		},{
 			"id":14,
-			"imgUrl": "../img/8cb1dce519375d02.png",
+			"imgUrl": "static/img/8cb1dce519375d02.png",
 			"link": "/list",
 			"Intro": "古北水镇"
 		},{
 			"id":15,
-			"imgUrl": "../img/9285073fde1eb702.png",
+			"imgUrl": "static/img/9285073fde1eb702.png",
 			"link": "/list",
 			"Intro": "景点讲解"
 		},{
 			"id":16,
-			"imgUrl": "../img/a70e61e1f57ee302.png",
+			"imgUrl": "static/img/a70e61e1f57ee302.png",
 			"link": "/list",
 			"Intro": "全部"
 		}],
