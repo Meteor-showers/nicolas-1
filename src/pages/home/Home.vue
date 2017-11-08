@@ -3,7 +3,7 @@
  		<home-header/>
  		<swiper-content/>
  		<index-icon-swiper/>
- 		<Acitivity-view />
+ 		<!--<Acitivity-view />-->
  		<index-hotsale />
  		<weekend-content  />
  	</div>
@@ -13,7 +13,7 @@
 import HeaderComponent from "./components/Header";
 import SwiperComponent from "./components/Swiper";
 import IconSwiper from "./components/IconSwiper";
-import ActivityComponent from "./components/activity";
+//import ActivityComponent from "./components/activity";
 import Recommend from "./components/RecommendList";
 import WeekendComponent from "./components/Weekend";
 
@@ -22,8 +22,8 @@ export default {
 		"home-header": HeaderComponent,
 		"swiper-content": SwiperComponent,
 		"index-icon-swiper":IconSwiper,
-		"Acitivity-view": ActivityComponent,
-		"lazy-content": LazyComponent,
+//		"Acitivity-view": ActivityComponent,
+		"index-hotsale":Recommend,
 		"weekend-content": WeekendComponent
 	},
 	

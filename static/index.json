@@ -9,13 +9,8 @@
 			"id":2,
 			"imgUrl":"/static/img/e395615b16fb1302.png",
 			"link": "/list"
-<<<<<<< HEAD
 		}],
 	
-=======
-		}]
-	}
->>>>>>> 3f0ae906b9af9e3d4760d0ad1dcef71b8da4b40e
 		"swiperInfo": [{
 			"id": 1,
 			"imgUrl": "http://img1.qunarzz.com/piao/fusion/1609/15/630b82d932a3c402.jpg_640x200_862e836b.jpg",
@@ -111,7 +106,6 @@
 			"link": "/list",
 			"Intro": "全部"
 		}],
-<<<<<<< HEAD
 		
 		"weekendInfo": [{
 			"id":1,
@@ -143,7 +137,8 @@
 			"link": "/list",
 			"name": "秋高气爽去礼佛",
 			"note":"秋风伴着美妙经声,品尝秋的另一番滋味"
-=======
+			}],
+
 		"swiperInfo": [{
 			"id": 1,
 			"imgUrl": "http://img1.qunarzz.com/piao/fusion/1609/15/630b82d932a3c402.jpg_640x200_862e836b.jpg",
@@ -187,7 +182,6 @@
 		    "placeInfo":"慕田峪长城",
 		    "introduceInfo":"秀美长城，关键是人少",
 		    "specificInfo":"11"
->>>>>>> 3f0ae906b9af9e3d4760d0ad1dcef71b8da4b40e
 		}]
 	}
 }
