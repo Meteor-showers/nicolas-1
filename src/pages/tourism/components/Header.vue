@@ -11,7 +11,41 @@
  				</div>
  			</div>
  		</div>
+ 		<div class="tourism-prdcard">
+ 					<h3 class="tourism-prdcard-name">【5大景点】广场+故宫+八达岭长城+鸟巢水立方，北京一日游</h3>
+ 					<div class="prdcard-price-info">
+ 						<em class="prdcard-sign">￥</em>
+ 						<span class="prdcard-price">148</span>
+ 						<span class="prdcard-text">起</span>
+ 						<span class="prdcard-reserve">可定明日</span>
+ 						<span class="prdcard-sold">已售:3254</span>
+ 					</div>
+ 					<div class="prdcard-tag">
+ 						<div class="prdcard-tag-item">
+ 							<span class="prdcard-icon">></span>
+ 							<span class="prdcard-font">条件退</span>
+ 						</div>
+ 						<div class="prdcard-tag-item">
+ 							<span class="prdcard-icon">></span>
+ 							<span class="prdcard-font">铁定成团</span>
+ 						</div>
+ 						<div class="prdcard-tag-item">
+ 							<span class="prdcard-icon">></span>
+ 							<span class="prdcard-font">无自费</span>
+ 						</div>
+ 						<div class="prdcard-tag-item">
+ 							<span class="prdcard-icon">></span>
+ 							<span class="prdcard-font">无购物</span>
+ 						</div>
+ 					</div>
+ 					<div class="comments-con">
+ 						<span class="comments-con-num">4.9</span>
+ 						<span class="comments-text">分</span>
+ 						<span class="comments-good">非常满意</span>
+ 					</div>
+ 				</div>
  	</div>
+ 	
 </template>
 
 <script>
@@ -95,4 +129,86 @@ export default {
 	    white-space: nowrap;
 	    text-overflow: ellipsis;
 	}
+	.tourism-prdcard{
+		position: relative;
+	    margin-top: -.1rem;
+	    padding: .2rem .2rem 0 .2rem;
+	    background: #fff;
+	}
+	.tourism-prdcard-name{
+		overflow: hidden;
+	    display: -webkit-box;
+	    color: #212121;
+	    font-size: .36rem;
+	    line-height: .44rem;
+	    text-overflow: ellipsis;
+	    font-weight:normal;
+	}
+	.prdcard-price-info{
+		overflow: hidden;
+	    margin: .16rem 0;
+	    height: .48rem;
+	    font-size: 0;
+	}
+	.prdcard-sign{
+		color: #ff8300;
+	    font-size: .24rem;
+	    font-style:normal;
+	}
+	.prdcard-price{
+		color: #ff8300;
+	    font-size: .48rem;
+	}
+	.prdcard-text{
+		color: #9e9e9e;
+	    font-size: .24rem;
+	}
+	.prdcard-reserve{
+		color: #616161;
+	    font-size: .24rem;
+	    margin-left: .2rem;
+    }
+    .prdcard-sold{
+	    color: #616161;
+	    float: right;
+	    height: .24rem;
+	    margin-top: .2rem;
+    }
+    .prdcard-tag{
+	    overflow: hidden;
+	    padding-bottom: .2rem;
+	    font-size: 0;
+    }
+    .prdcard-tag-item :not{
+    	margin-right:.2rem;
+    }
+    .prdcard-tag-item{
+	    float: left;
+	    height: .34rem;
+	    font-size: .24rem;
+	    line-height: .34rem;
+    }
+    .prdcard-icon{
+	    margin-right: .04rem;
+	    color: #00afc7;
+	    font-size: .28rem;
+	    vertical-align: -.02rem;	
+    }
+    .prdcard-font{
+    	color: #616161;
+    }
+    .comments-con{
+    	margin-bottom:0;
+    	position:relative;
+    	margin-top:.2rem;
+    	background:#fff;
+    	height:.8rem;
+    	line-height:.8rem;
+    }
+    .comments-con-num{
+    	
+    }
+    .comments-text{
+    	
+    }
 </style>
