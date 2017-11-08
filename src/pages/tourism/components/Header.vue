@@ -42,6 +42,10 @@
  						<span class="comments-con-num">4.9</span>
  						<span class="comments-text">分</span>
  						<span class="comments-good">非常满意</span>
+ 						<span class="comments-numbers">
+ 							用户评价(299)
+ 							<span class="comments-icon">></span>
+ 						</span>
  					</div>
  				</div>
  	</div>
@@ -204,11 +208,37 @@ export default {
     	background:#fff;
     	height:.8rem;
     	line-height:.8rem;
+    	border-bottom:1px solid #9E9E9E;
     }
     .comments-con-num{
-    	
+	    font-size: .4rem;
+	    color: #00afc7;
+	    margin-left: .2rem;
+	    line-height:.8rem;
     }
     .comments-text{
-    	
+    	color: #00afc7;
+    	line-height:.8rem;
+    }
+    .comments-good{
+	    display: inline-block;
+	    margin-left: .1rem;
+	    color: #616161;
+    }
+    .comments-numbers{
+	    float: right;
+	    position: relative;
+	    top: .25rem;
+	    display: inline-block;
+	    line-height: .28rem;
+	    font-size: .28rem;
+	    margin-left: .16rem;
+	    margin-right: .2rem;
+	    color: #9e9e9e;
+    }
+    .comments-icon{
+	    position: relative;
+	    top: .02rem;
+	    font-size: .24rem;
     }
 </style>

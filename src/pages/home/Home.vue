@@ -1,4 +1,4 @@
-<!--<template>
+<template>
 	<div>
  		<home-header/>
  		<swiper-content :swiperInfo="this.$store.state.swiperInfo"/>
@@ -64,4 +64,4 @@ export default {
 </script>
 
 <style>
-</style>-->
+</style>
