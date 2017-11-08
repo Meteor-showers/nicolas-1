@@ -1,29 +1,20 @@
 <template>
 	<swiper :options="swiperOption" ref="mySwiper">
-    	<swiper-slide>
-    		<div class="swiper-img-con">
-    			<img class="swiper-img" src="http://img1.qunarzz.com/piao/fusion/1609/15/630b82d932a3c402.jpg_640x200_862e836b.jpg">
-    		</div>
+    	<swiper-slide v-for="item in swiperInfo" :key="item.id">
+            <router-link to="item.link">
+        		<div class="swiper-img-con">
+        			<img class="swiper-img" :src="item.imgUrl">
+        		</div>
+            </router-link>    
     	</swiper-slide>
-      
-   		<swiper-slide>
-   			<div class="swiper-img-con">
-   				<img class="swiper-img" src="http://img1.qunarzz.com/piao/fusion/1711/c5/2b4166f592b33202.jpg_640x200_27b41388.jpg">
-   			</div>
-   		</swiper-slide>
-   		<swiper-slide>
-   			<div class="swiper-img-con">
-   				<img class="swiper-img" src="http://img1.qunarzz.com/piao/fusion/1710/16/1d7693c6bd8abd02.png_640x200_43c308dd.png">
-   			</div>
-   		</swiper-slide>
     	<div class="swiper-pagination"  slot="pagination"></div>
 	</swiper>
 </template>
 
 <script>
 	import { swiper, swiperSlide } from 'vue-awesome-swiper'
-
   	export default {
+        props: ['swiperInfo'],
     	data() {
 			return {
 				swiperOption: {
@@ -35,7 +26,6 @@
         		}
       		} 
     	},
-
     	components: {
       		swiper,
     		swiperSlide

@@ -162,4 +162,19 @@
 	    line-height: .88rem;
 	    text-align: center;
 	}
+	.mpw-input-number-minus,
+	.mpw-input-number-plus {
+		position: relative;
+		display: inline-block;
+		width: .56rem;
+		height: .56rem;
+		margin: .02rem;
+		background-color: #00afc7
+	}
+	.mpw-input-number-minus {
+		border-right: 0
+	}
+	.mpw-input-number-plus {
+		border-left: 0
+	}
 </style>

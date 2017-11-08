@@ -5,6 +5,7 @@ import Palace from '@/pages/palace-museum/Palace'
 import Pic from '@/pages/palace-museum/Pic'
 import Header from '@/pages/palace-museum/Header'
 import List from '@/pages/list/List'
+import Order from '@/pages/order-information/Order'
 
 Vue.use(Router)
 
@@ -30,6 +31,10 @@ export default new Router({
       name: 'Palace',
       component: Palace
     },
-   
+    {
+      path: '/order-information',
+      name: 'Order',
+      component: Order
+    },
   ]
 })
