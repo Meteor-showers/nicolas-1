@@ -9,8 +9,13 @@
 			"id":2,
 			"imgUrl":"/static/img/e395615b16fb1302.png",
 			"link": "/list"
+<<<<<<< HEAD
 		}],
 	
+=======
+		}]
+	}
+>>>>>>> 3f0ae906b9af9e3d4760d0ad1dcef71b8da4b40e
 		"swiperInfo": [{
 			"id": 1,
 			"imgUrl": "http://img1.qunarzz.com/piao/fusion/1609/15/630b82d932a3c402.jpg_640x200_862e836b.jpg",
@@ -106,6 +111,7 @@
 			"link": "/list",
 			"Intro": "全部"
 		}],
+<<<<<<< HEAD
 		
 		"weekendInfo": [{
 			"id":1,
@@ -137,6 +143,51 @@
 			"link": "/list",
 			"name": "秋高气爽去礼佛",
 			"note":"秋风伴着美妙经声,品尝秋的另一番滋味"
+=======
+		"swiperInfo": [{
+			"id": 1,
+			"imgUrl": "http://img1.qunarzz.com/piao/fusion/1609/15/630b82d932a3c402.jpg_640x200_862e836b.jpg",
+			"link": "/list"
+		},{
+			"id": 2,
+			"imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/c5/2b4166f592b33202.jpg_640x200_27b41388.jpg",
+			"link": "/list"
+		},{
+			"id": 3,
+			"imgUrl": "http://img1.qunarzz.com/piao/fusion/1710/16/1d7693c6bd8abd02.png_640x200_43c308dd.png",
+			"link": "/list"
+		}],
+		"recommendInfo":[{
+		    "id":1,
+		    "imgUrl":"http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+		    "placeInfo":"故宫",
+		    "introduceInfo":"东方宫殿建筑代表，世界宫殿建筑典范",
+		    "specificInfo":"40"
+		},{
+		    "id":2,
+            "imgUrl":"http://img1.qunarzz.com/sight/p0/1708/2b/2b3b94de99c0a425a3.img.jpg_140x140_97813766.jpg",
+		    "placeInfo":"八达岭长城",
+		    "introduceInfo":"不到长城非好汉",
+		    "specificInfo":"25"
+		},{
+		    "id":3,
+		    "imgUrl":"http://img1.qunarzz.com/sight/p0/1505/d2/d274c92de14c93da.water.jpg_140x140_e20be8e0.jpg",
+		    "placeInfo":"颐和园",
+		    "introduceInfo":"保存完整的一座皇家行宫御苑",
+		    "specificInfo":"1"
+		},{
+		    "id":4,
+		    "imgUrl":"http://img1.qunarzz.com/sight/p0/1508/a5/4003f9dd7bebf61eccbf64046e26d487.water.jpg_140x140_b05eb1df.jpg",
+		    "placeInfo":"北京欢乐谷",
+		    "introduceInfo":"七大主题园区带你畅享北京欢乐谷",
+		    "specificInfo":"11"
+		},{
+		    "id":5,
+		    "imgUrl":"http://img1.qunarzz.com/sight/p0/1708/2b/2b6378fd3b2e1d86a3.img.jpg_140x140_eae81520.jpg",
+		    "placeInfo":"慕田峪长城",
+		    "introduceInfo":"秀美长城，关键是人少",
+		    "specificInfo":"11"
+>>>>>>> 3f0ae906b9af9e3d4760d0ad1dcef71b8da4b40e
 		}]
 	}
 }

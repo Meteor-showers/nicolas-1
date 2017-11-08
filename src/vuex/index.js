@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+<<<<<<< HEAD
 import home from '../pages/home/module.js'
 Vue.use(Vuex);
 
@@ -33,3 +34,15 @@ export default new Vuex.Store({
 //	},
 //	getters: {}
 })
+=======
+import home from "../pages/home/module.js"
+import domestic from "../pages/city/components/domestic-module.js"
+Vue.use(Vuex);
+
+export default new Vuex.Store({
+	modules: {
+		home: home,
+		domestic: domestic
+	}
+})
+>>>>>>> 3f0ae906b9af9e3d4760d0ad1dcef71b8da4b40e
