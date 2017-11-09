@@ -5,6 +5,8 @@ import Palace from '@/pages/palace-museum/Palace'
 import Pic from '@/pages/palace-museum/Pic'
 import Header from '@/pages/palace-museum/Header'
 import List from '@/pages/list/List'
+import Bobparr from '@/pages/Bobparr/Bobparr'
+
 
 Vue.use(Router)
 
@@ -31,5 +33,10 @@ export default new Router({
       component: Palace
     },
    
+   {
+      path: '/Bobparr',
+      name: 'Bobparr',
+      component: Bobparr
+    }
   ]
 })
