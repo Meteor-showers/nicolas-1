@@ -18,12 +18,16 @@ export default {
 		})
 		}
 	},
+	
 	mutations:{
 		changeIndexInfo(state,data){
 			state.swiperInfo = data.swiperInfo;
 			state.recommendInfo = data.recommendInfo;
 			state.weekendInfo=data.weekendInfo;
 		},
+		refreshInfo(state, data) {
+			state.recommendInfo.push(...state.recommendInfo);
+		}
 	},
 	getters:{
 		shouldGetData(state){

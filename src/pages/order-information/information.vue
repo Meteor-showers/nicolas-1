@@ -34,8 +34,6 @@
 			</div>
 
 		</div>
-
-		<!-- 点击修改用户数量-->
 		<div class="number-limit">
 			<label class="row-field">购买数量</label>
 			<span class="limit-desc">最多买5张</span>
@@ -249,7 +247,7 @@
 		border: 0 none;
 		background: #ff9800;
 		color: #fff;
-		font: normal .36rem/1rem Arial, "Microsoft Yahei", "Helvetica Neue", Helvetica, sans-serif;
+		font: normal .36rem/1rem Arial;
 		text-align: center;
 		width: 50%;
 	}
