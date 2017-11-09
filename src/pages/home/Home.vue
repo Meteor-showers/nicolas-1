@@ -1,6 +1,7 @@
 <template>
 	<div>
  		<home-header/>
+<<<<<<< HEAD
 
  		<swiper-content/>
  		<index-icon-swiper/>
@@ -10,6 +11,13 @@
 
  		<!--<lazy-content/>
  		 <week-content/> -->
+=======
+ 		<swiper-content/>
+ 		<index-icon-swiper/>
+ 		<!--<Acitivity-view />-->
+ 		<index-hotsale />
+ 		<weekend-content  />
+>>>>>>> b599ab63a8fdc0c65a7db68cd7133ec9b6d71903
  	</div>
 </template>
 
@@ -17,6 +25,7 @@
 import HeaderComponent from "./components/Header";
 import SwiperComponent from "./components/Swiper";
 import IconSwiper from "./components/IconSwiper";
+<<<<<<< HEAD
 
 import ActivityComponent from "./components/activity";
 //import LazyComponent from "./components/Lazy";
@@ -31,10 +40,18 @@ export default {
 	},
 
 
+=======
+//import ActivityComponent from "./components/activity";
+import Recommend from "./components/RecommendList";
+import WeekendComponent from "./components/Weekend";
+
+export default {
+>>>>>>> b599ab63a8fdc0c65a7db68cd7133ec9b6d71903
 	components: {
 		"home-header": HeaderComponent,
 		"swiper-content": SwiperComponent,
 		"index-icon-swiper":IconSwiper,
+<<<<<<< HEAD
 		 "Acitivity-view": ActivityComponent
 //		"lazy-content": LazyComponent,
 
@@ -58,14 +75,27 @@ export default {
 		handleGetDataErr(err) {
 			console.log(err);
 		}
+=======
+//		"Acitivity-view": ActivityComponent,
+		"index-hotsale":Recommend,
+		"weekend-content": WeekendComponent
+>>>>>>> b599ab63a8fdc0c65a7db68cd7133ec9b6d71903
 	},
+	
 	mounted() {
+<<<<<<< HEAD
 		this.getHomeData();
 		this.getHomeData();
 		this.$store.dispatch("getSwiperInfo");
 
 
 //		 "week-content": WeekComponent
+=======
+		if (this.$store.getters.shouldGetData) {
+		this.$store.dispatch("getIndexInfo");
+			
+		}
+>>>>>>> b599ab63a8fdc0c65a7db68cd7133ec9b6d71903
 	}
 }
 	

@@ -1,5 +1,5 @@
 <template>
-	<div class="big">
+	<div class="mp-ticket-type-out">
 		<div class="mp-ticket-group mp-border-bottom">
 			<h3 class="mp-ticket-type mp-border-bottom">
 				<span class="mp-ticketype-ticket"></span>
@@ -137,7 +137,9 @@
 				<div class="mp-ticket-type-info mp-border-bottom">
 					<h5 class="mp-ticket-type-name mp-ellipsis2">
 						【大内御讲 9:00场】蓝琪儿格格带您穿越故宫（含故宫+珍宝馆门票）
-						<span class="mp-ticket-type-subname">凭身份证入园</span>
+						<span class="mp-ticket-type-subname">
+							凭身份证入园
+						</span>
 					</h5>
 					<div class="mp-ticket-type-price">
 						¥
@@ -199,7 +201,9 @@
 				<div class="mp-ticket-type-info mp-border-bottom">
 					<h5 class="mp-ticket-type-name mp-ellipsis2">
 						珍宝馆成人票
-						<span class="mp-ticket-type-subname">凭身份证入园，需购买午门门票</span>
+						<span class="mp-ticket-type-subname">
+							凭身份证入园，需购买午门门票
+						</span>
 					</h5>
 					<div class="mp-ticket-type-price">
 						¥
@@ -213,7 +217,9 @@
 				<div class="mp-ticket-type-info mp-border-bottom">
 					<h5 class="mp-ticket-type-name mp-ellipsis2">
 						珍宝馆学生/老人票
-						<span class="mp-ticket-type-subname">凭身份证入园，需购买午门门票</span>
+						<span class="mp-ticket-type-subname">
+							凭身份证入园，需购买午门门票
+						</span>
 					</h5>
 					<div class="mp-ticket-type-price">
 						¥
@@ -237,7 +243,9 @@
 				<div class="mp-ticket-type-info mp-border-bottom">
 					<h5 class="mp-ticket-type-name mp-ellipsis2">
 						【大内御讲 9:00场】蓝琪儿格格带您穿越故宫
-						<span class="mp-ticket-type-subname">(不含故宫门票)</span>
+						<span class="mp-ticket-type-subname">
+							(不含故宫门票)
+						</span>
 					</h5>
 					<div class="mp-ticket-type-price">
 						¥
@@ -251,7 +259,9 @@
 				<div class="mp-ticket-type-info mp-border-bottom">
 					<h5 class="mp-ticket-type-name mp-ellipsis2">
 						【09:00场次】故宫讲解服务
-						<span class="mp-ticket-type-subname">（不含故宫门票）</span>
+						<span class="mp-ticket-type-subname">
+							（不含故宫门票）
+						</span>
 					</h5>
 					<div class="mp-ticket-type-price">
 						¥
@@ -349,7 +359,7 @@
 </script>
 
 <style>
-.big{
+.mp-ticket-type-out{
 	background: #F2F2F2;
 }
 .mp-ticket-group {
