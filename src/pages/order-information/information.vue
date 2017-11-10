@@ -250,7 +250,7 @@
 		border: 0 none;
 		background: #ff9800;
 		color: #fff;
-		font: normal .36rem/1rem Arial, "Microsoft Yahei", "Helvetica Neue", Helvetica, sans-serif;
+		font: normal .36rem/1rem Arial;
 		text-align: center;
 		width: 50%;
 	}

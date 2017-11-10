@@ -4,6 +4,7 @@ export default {
 	state:{
 			swiperInfo: [],
 			IconSwiper: [],
+			acitivityInfo: [],
 			recommendInfo:[],
 			weekendInfo: []
 	},
@@ -23,24 +24,26 @@ export default {
 		changeIndexInfo(state,data){
 			state.swiperInfo = data.swiperInfo;
 			state.IconSwiper = data.IconSwiper;
+			state.acitivityInfo = data.acitivityInfo;
 			state.recommendInfo = data.recommendInfo;
 			state.weekendInfo=data.weekendInfo;
 		},
 		refreshInfo(state, data) {
 			state.recommendInfo.push(...state.recommendInfo);
 		}
-	},
-	getters:{
-		shouldGetData(state){
-			if (!state.swiperInfo.length &&
-				!state.IconSwiper.length &&
-				!state.weekendInfo.length &&
-				!state.recommendInfo.length) {
-				return true
-			}else {
-				return false;
-			}
-		}
 	}
+	// getters:{
+	// 	shouldGetData(state){
+	// 		if (!state.swiperInfo.length &&
+	// 			!state.IconSwiper.length &&
+	// 			!state.acitivityInfo.length &&
+	// 			!state.weekendInfo.length &&
+	// 			!state.recommendInfo.length) {
+	// 			return true
+	// 		}else {
+	// 			return false;
+	// 		}
+	// 	}
+	// }
 }
 			

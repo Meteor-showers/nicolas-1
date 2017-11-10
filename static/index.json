@@ -1,6 +1,7 @@
 {
 	"ret": true,
 	"data": {
+
 		"acitivityInfo": [{
 			"id":1,
 			"imgUrl": "/static/img/1685d2108b652302.png",
@@ -137,7 +138,9 @@
 			"link": "/list",
 			"name": "秋高气爽去礼佛",
 			"note":"秋风伴着美妙经声,品尝秋的另一番滋味"
-		}],
+
+			}],
+
 
 		"swiperInfo": [{
 			"id": 1,
@@ -182,6 +185,13 @@
 		    "placeInfo":"慕田峪长城",
 		    "introduceInfo":"秀美长城，关键是人少",
 		    "specificInfo":"11"
+
 		}]
+
 	}
+
+
 }
+
+
+
