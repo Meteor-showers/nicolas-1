@@ -14,7 +14,6 @@
 <script>
 	import { swiper, swiperSlide } from 'vue-awesome-swiper'
   	export default {
-        props: ['swiperInfo'],
     	data() {
 			return {
 				swiperOption: {
@@ -29,7 +28,11 @@
     	components: {
       		swiper,
     		swiperSlide
-		}
+		},computed: {
+            swiperInfo() {
+                return this.$store.state.home.swiperInfo;
+            }
+        }
 	}
 </script>
 

@@ -2,7 +2,9 @@
 	<div>
 		<div class="mp-header">
 			<div class="mp-header">
+				<router-link to="../list">
 				<a class="mp-header-left mp-iconfont iconfont icon-back"></a>
+				</router-link>
 				<h1 class="mp-header-title">订单填写</h1>
 				<a class="mp-header-right">登录</a>
 			</div>
@@ -35,7 +37,6 @@
 
 		</div>
 
-		<!-- 点击修改用户数量-->
 		<div class="number-limit">
 			<label class="row-field">购买数量</label>
 			<span class="limit-desc">最多买5张</span>

@@ -1,7 +1,9 @@
 <template>
 	<div class="Suggest" style="<!-- display: none; --> top: 37px; background: white">
 		<div class="suggest-history">
-			<span class="search">热门搜索</span>
+            
+                <span class="search">热门搜索</span>
+            
 			<span class="qiehuan">
 				<span class="iconfont icon-refresh"></span>
 				<span @click="btnChange">{{change}}</span>
@@ -16,7 +18,9 @@
 				</div>
 				<div class="mp-hotsearch-itemcon mp-sight-maxline" >
 					<div class="mp-hotsearch-iteminner"  :style="{top:scenicStyle}" ref="scenicChange">
-						<a href="#" class="mp-hotsearch-item">宋城千古情</a>
+						<router-link to="../order-information">
+                        <a href="../order-information/Order" class="mp-hotsearch-item">宋城千古情</a>
+
 						<a href="#" class="mp-hotsearch-item">故宫</a>
 						<a href="#" class="mp-hotsearch-item">香山公园</a>
 						<a href="#" class="mp-hotsearch-item">天门狐仙</a>
@@ -46,6 +50,7 @@
 						<a href="#" class="mp-hotsearch-item">常州环球动漫嬉戏谷</a>
 						<a href="#" class="mp-hotsearch-item">深圳欢乐谷</a>
 						<a href="#" class="mp-hotsearch-item">凤凰山海港乐园</a>
+                        </router-link>
 					</div>
 				</div>
 			</div>
@@ -57,7 +62,8 @@
 				</div>
 				<div class="mp-hotsearch-itemcon mp-region-maxline" >
 					<div class="mp-hotsearch-iteminner" :style="{top:placeStyle}" ref="placeChange">
-						<a href="#" class="mp-hotsearch-cityitem">广州</a>
+						<router-link to="../order-information">
+                        <a href="#" class="mp-hotsearch-cityitem">广州</a>
 						<a href="#" class="mp-hotsearch-cityitem">三亚</a>
 						<a href="#" class="mp-hotsearch-cityitem">上海</a>
 						<a href="#" class="mp-hotsearch-cityitem">苏州</a>
@@ -77,6 +83,7 @@
 						<a href="#" class="mp-hotsearch-cityitem">青岛</a>
 						<a href="#" class="mp-hotsearch-cityitem">福州</a>
 						<a href="#" class="mp-hotsearch-cityitem">惠州</a>
+                        </router-link>
 					</div>
 				</div>
 			</div>

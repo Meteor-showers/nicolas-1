@@ -16,6 +16,7 @@ import IconSwiper from "./components/IconSwiper";
 import ActivityComponent from "./components/activity";
 import Recommend from "./components/RecommendList";
 import WeekendComponent from "./components/Weekend";
+import axios from "axios";
 
 export default {
 	components: {
@@ -23,7 +24,7 @@ export default {
 		"swiper-content": SwiperComponent,
 		"index-icon-swiper":IconSwiper,
 		"Acitivity-view": ActivityComponent,
-		"lazy-content": LazyComponent,
+		"index-hotsale":Recommend,
 		"weekend-content": WeekendComponent
 	},
 	
@@ -37,3 +38,4 @@ export default {
 </script>
 
 <style>
+</style>

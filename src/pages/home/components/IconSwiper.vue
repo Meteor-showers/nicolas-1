@@ -5,7 +5,7 @@
 	    		<div class="nav-swiper">
 	    			<ul>
 	    				<li class = "nav-img"  v-for="(item,index) in IconSwiper" :key="item.id" v-if='index<=7'>
-	    					<router-link to="/list">
+	    					<router-link :to="item.link">
 		    					<p class="nav-img1"><img class="nav-img-con" :src="item.imgUrl" alt="景点门票"></p>
 		    					<p class="keywords">{{item.Intro}}</p>
 		    				</router-link>
@@ -36,8 +36,8 @@
 <script>
 	import { swiper, swiperSlide } from 'vue-awesome-swiper';
 	import axios from "axios";
+	import { mapState } from 'vuex';
 	  	export default {
-	  		props: ['IconSwiper'],
 	    	data() {
 				return {
 					swiperOption: {
@@ -51,7 +51,11 @@
 	    	components: {
 	      		swiper,
 	    		swiperSlide
-			}
+			},computed: mapState({
+				IconSwiper(state){
+					return state.home.IconSwiper;
+				}
+			})
 		}
 </script>
 

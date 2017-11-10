@@ -61,12 +61,12 @@
 		border-bottom:1px solid #f2f2f2;
 	}
 	.activity-bottom li:nth-child(1){
-		background:url("../img/1685d2108b652302.png") no-repeat;
+		/*background:url(".././img/1685d2108b652302.png") no-repeat;*/
 		background-size:contain;
 		border-right:1px solid #f2f2f2;
 	}
 	.activity-bottom li:nth-child(2){
-		background:url("../img/e395615b16fb1302.png") no-repeat;
+		/*background:url("../img/e395615b16fb1302.png") no-repeat;*/
 		background-size:contain;
 		
 	}

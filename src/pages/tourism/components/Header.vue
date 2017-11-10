@@ -72,11 +72,11 @@ export default {
 
 <style>
 	.tourism-page{
-		position: absolute;
+		/*position: absolute;
 	    top: 0;
 	    left: 0;
 	    width: 100%;
-	    min-height: 100%;
+	    min-height: 100%;*/
 	    background: #f1f5f6;
 	}
 	.tourism-header{
