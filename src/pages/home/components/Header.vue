@@ -1,12 +1,16 @@
 <template>
  	<header class="header">
  		<div class="header-left iconfont icon-back"></div>
- 		<div class="header-title">
-		 			输入城市/景点/游玩主题
- 		</div>
+ 		<router-link to="/list">
+	 		<div class="header-title">
+			 	输入城市/景点/游玩主题
+	 		</div>
+	 	</router-link>
  		<div class="header-right">
 	 		<div class="header-city-wrapper">
-			 	<span class="header-city">北京</span>
+	 			<router-link to="/city">
+			 		<span class="header-city">北京</span>
+			    </router-link>
 		 	</div>
  		</div>
  	</header>
@@ -14,7 +18,7 @@
 
 <script>
 export default {
-	
+
 }
 </script>
 
@@ -52,7 +56,7 @@ export default {
 		color: #fff;
 	}
 	.header-city-wrapper{
-		position:relative;		
+		position:relative;
 		padding-right:.3rem;
 	}
 	.header-city{
@@ -73,5 +77,5 @@ export default {
 		border-style:solid;
 		border-color:#fff transparent transparent transparent;
 	}
-	
+
 </style>

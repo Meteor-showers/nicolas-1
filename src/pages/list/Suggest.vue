@@ -1,10 +1,12 @@
 <template>
 	<div class="Suggest" style="<!-- display: none; --> top: 37px; background: white">
 		<div class="suggest-history">
-			<span class="search">热门搜索</span>
+            
+                <span class="search">热门搜索</span>
+            
 			<span class="qiehuan">
 				<span class="iconfont icon-refresh"></span>
-				<span>换一批</span>
+				<span @click="btnChange">{{change}}</span>
 			</span>
 		</div>
 		<div class="mp-hotsearch-con">
@@ -14,9 +16,11 @@
 						<img src="http://img1.qunarzz.com/piao/fusion/1511/da/8c3405b0e7d493f7.png" class="mp-hotsearch-typeicon">
 					</div>
 				</div>
-				<div class="mp-hotsearch-itemcon mp-sight-maxline" mp-role="hotsearch-select">
-					<div class="mp-hotsearch-iteminner" mp-role="hotsearch-sight-inner">
-						<a href="#" class="mp-hotsearch-item">宋城千古情</a>
+				<div class="mp-hotsearch-itemcon mp-sight-maxline" >
+					<div class="mp-hotsearch-iteminner"  :style="{top:scenicStyle}" ref="scenicChange">
+						<router-link to="../order-information">
+                        <a href="../order-information/Order" class="mp-hotsearch-item">宋城千古情</a>
+
 						<a href="#" class="mp-hotsearch-item">故宫</a>
 						<a href="#" class="mp-hotsearch-item">香山公园</a>
 						<a href="#" class="mp-hotsearch-item">天门狐仙</a>
@@ -46,6 +50,7 @@
 						<a href="#" class="mp-hotsearch-item">常州环球动漫嬉戏谷</a>
 						<a href="#" class="mp-hotsearch-item">深圳欢乐谷</a>
 						<a href="#" class="mp-hotsearch-item">凤凰山海港乐园</a>
+                        </router-link>
 					</div>
 				</div>
 			</div>
@@ -55,9 +60,10 @@
 						<img src="http://img1.qunarzz.com/piao/fusion/1511/e8/d46972e07444bbf7.png" class="mp-hotsearch-typeicon">
 					</div>
 				</div>
-				<div class="mp-hotsearch-itemcon mp-region-maxline" mp-role="hotsearch-select">
-					<div class="mp-hotsearch-iteminner" mp-role="hotsearch-region-inner">
-						<a href="#" class="mp-hotsearch-cityitem">广州</a>
+				<div class="mp-hotsearch-itemcon mp-region-maxline" >
+					<div class="mp-hotsearch-iteminner" :style="{top:placeStyle}" ref="placeChange">
+						<router-link to="../order-information">
+                        <a href="#" class="mp-hotsearch-cityitem">广州</a>
 						<a href="#" class="mp-hotsearch-cityitem">三亚</a>
 						<a href="#" class="mp-hotsearch-cityitem">上海</a>
 						<a href="#" class="mp-hotsearch-cityitem">苏州</a>
@@ -77,6 +83,7 @@
 						<a href="#" class="mp-hotsearch-cityitem">青岛</a>
 						<a href="#" class="mp-hotsearch-cityitem">福州</a>
 						<a href="#" class="mp-hotsearch-cityitem">惠州</a>
+                        </router-link>
 					</div>
 				</div>
 			</div>
@@ -89,8 +96,34 @@
 </template>
 <script>
 	export default {
+        data () {
+            return {
+                change:"换一批",
+                scenicStyle:"0rem",
+                placeStyle:"0rem"
+            }
+        },
 
-}
+        methods:{
+            btnChange:function () {
+                var scenicTop = this.$refs.scenicChange.style.top;
+                var Top = scenicTop.split("r");
+                var addTop = -Number(Top[0])+1.72;
+                this.$refs.scenicChange.style.top = -(addTop) + "rem";
+                if(addTop >= 8.6){
+                this.$refs.scenicChange.style.top = 0+"rem";
+                }
+
+                var placeTop = this.$refs.placeChange.style.top;
+                var Topa = placeTop.split("r");
+                var addTopa = -Number(Topa[0])+.86;
+                this.$refs.placeChange.style.top = -(addTopa) + "rem";
+                if(addTopa >= 4.3){
+                this.$refs.placeChange.style.top = 0+"rem";
+                }
+            }
+        }
+    }
 
 </script>
 <style>

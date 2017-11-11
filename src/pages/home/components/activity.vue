@@ -10,19 +10,22 @@
     				<i>5折泡温泉</i>
     			</li>
     		</ul>
-    		<ul class="activity-bottom">
-    			<li>
-    				<img src="./img/1685d2108b652302.png">
+    		<ul class="activity-bottom" >
+    			
+    			<li class="promotion" v-for="item in acitivityInfo" :key="item.id">
+    				<router-link :to="item.link" class="router-link">
+    				<img :src="item.imgUrl"/>
+    				</router-link>
     			</li>
-    			<li>
-    				<img src="./img/e395615b16fb1302.png">
-    			</li>
+    			
     		</ul>
     	</div>
     </div>
 </template>
 <script>
-
+	export default {
+		props: ["acitivityInfo"]
+	}
 </script>
 <style>
 	.activity-top{
@@ -43,22 +46,41 @@
 	.activity-top li:nth-child(2){
 		border-right:none;
 	}
-
+	
 	.activity-bottom{
 		width:100%;
-		display: flex;
+		height:1.4rem;
+	
 	}
-	.activity-bottom li{
+	
+	.activity-bottom .promotion{
+		box-sizing: border-box;
 		float:left;
+		height:1.4rem;
 		width:50%;
-		
 		border-bottom:1px solid #f2f2f2;
 	}
 	.activity-bottom li:nth-child(1){
+		/*background:url(".././img/1685d2108b652302.png") no-repeat;*/
+
+	/*.activity-bottom li:nth-child(1){
+		background:url("../img/1685d2108b652302.png") no-repeat;
+>>>>>>> c015b7768d761b3848da54096da15f19f1d4898e
+		background-size:contain;
 		border-right:1px solid #f2f2f2;
 	}
+	.activity-bottom li:nth-child(2){
+		/*background:url("../img/e395615b16fb1302.png") no-repeat;*/
+		background-size:contain;
+		
+	}
+	
 	.activity-bottom li img{
 		width:100%;
 		height:1.4rem;
 	}
+	.activity-bottom .router-link{
+		width:50%;
+	}
+
 </style>
