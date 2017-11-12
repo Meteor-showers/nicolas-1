@@ -70,7 +70,7 @@
  		</div>
  		<!--<div class="iconfont mpw-dock-close">>>>>></div>
  		<div class="mask" style="display:block"></div>-->
- 	</div>
+ 	<!--</div>
  	
 </template>
  

@@ -8,7 +8,7 @@
  		<tourism-comments />
  		<tourism-qchat />
  		<tourism-add />
- 		<tourism-choose />
+ 		<!--<tourism-choose />-->
  	</div>
 </template>
 
@@ -21,7 +21,7 @@ import GuideComponent from "./components/Guide";
 import CommentsComponent from "./components/Comments";
 import QchatComponent from "./components/Qchat";
 import addComponent from "./components/add";
-import chooseComponent from "./components/choose";
+//import chooseComponent from "./components/choose";
 
 export default {
 	components: {
@@ -33,7 +33,7 @@ export default {
 		"tourism-comments": CommentsComponent,
 		"tourism-qchat": QchatComponent,
 		"tourism-add": addComponent,
-		"tourism-choose": chooseComponent
+//		"tourism-choose": chooseComponent
 	}
 }
 </script>

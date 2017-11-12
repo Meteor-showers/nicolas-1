@@ -7,7 +7,10 @@ import Header from '@/pages/palace-museum/Header'
 import List from '@/pages/list/List'
 import Tourism from '@/pages/tourism/Tourism'
 import Order from '@/pages/order-information/Order'
-//import OneDayTourDetail from '@/pages/onedaydetail/index'
+import City from '@/pages/city/City'
+import oneDay from '@/pages/oneDay/oneDay'
+import Bobparr from '@/pages/Bobparr/Bobparr'
+
 
 Vue.use(Router)
 
@@ -24,6 +27,11 @@ export default new Router({
       component: List
     },
     {
+      path: '/city',
+      name: 'city',
+      component: City
+    },
+    {
       path: '/palace-museum/Pic',
       name: 'Pic',
       component: Pic
@@ -33,6 +41,13 @@ export default new Router({
       name: 'Palace',
       component: Palace
     },
+
+   {
+      path: '/Bobparr',
+      name: 'Bobparr',
+      component: Bobparr
+    },
+
    {
       path: '/tourism',
       name: 'Tourism',
@@ -42,7 +57,11 @@ export default new Router({
       path: '/order-information',
       name: 'Order',
       component: Order
+    },
+     {
+      path: '/oneDay',
+      name: 'oneDay',
+      component: oneDay
     }
-   
   ]
 })

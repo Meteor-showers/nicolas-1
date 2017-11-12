@@ -1,6 +1,7 @@
 {
 	"ret": true,
 	"data": {
+
 		"acitivityInfo": [{
 			"id":1,
 			"imgUrl": "/static/img/1685d2108b652302.png",
@@ -10,7 +11,6 @@
 			"imgUrl":"/static/img/e395615b16fb1302.png",
 			"link": "/list"
 		}],
-	
 		"swiperInfo": [{
 			"id": 1,
 			"imgUrl": "http://img1.qunarzz.com/piao/fusion/1609/15/630b82d932a3c402.jpg_640x200_862e836b.jpg",
@@ -24,7 +24,7 @@
 			"imgUrl": "http://img1.qunarzz.com/piao/fusion/1710/16/1d7693c6bd8abd02.png_640x200_43c308dd.png",
 			"link": "/list"
 		}],
-		
+
 		"IconSwiper": [{
 			"id":1,
 			"imgUrl": "static/img/ace00878a52d9702.png",
@@ -38,12 +38,12 @@
 		},{
 			"id":3,
 			"imgUrl": "static/img/2640cab202c41b02.png",
-			"link": "/list",
+			"link": "./palace-museum",
 			"Intro": "故宫"
 		},{
 			"id":4,
 			"imgUrl": "static/img/ffc620dbda9b9c02.png",
-			"link": "/list",
+			"link": "/tourism",
 			"Intro": "一日游"
 		},{
 			"id":5,
@@ -106,7 +106,6 @@
 			"link": "/list",
 			"Intro": "全部"
 		}],
-		
 		"weekendInfo": [{
 			"id":1,
 			"imgUrl": "http://img1.qunarzz.com/sight/source/1509/81/0412da9c4db66a.jpg_r_640x214_8e23871e.jpg",
@@ -137,8 +136,10 @@
 			"link": "/tourism",
 			"name": "秋高气爽去礼佛",
 			"note":"秋风伴着美妙经声,品尝秋的另一番滋味"
-		}],
-			
+
+			}],
+
+
 		"swiperInfo": [{
 			"id": 1,
 			"imgUrl": "http://img1.qunarzz.com/piao/fusion/1609/15/630b82d932a3c402.jpg_640x200_862e836b.jpg",
@@ -183,5 +184,11 @@
 		    "introduceInfo":"秀美长城，关键是人少",
 		    "specificInfo":"11"
 		}]
+
 	}
+
+
 }
+
+
+

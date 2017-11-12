@@ -8,7 +8,9 @@
 	 	</router-link>
  		<div class="header-right">
 	 		<div class="header-city-wrapper">
-			 	<span class="header-city">北京</span>
+	 			<router-link to="/city">
+			 		<span class="header-city">北京</span>
+			    </router-link>
 		 	</div>
  		</div>
  	</header>

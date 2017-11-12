@@ -1,46 +1,81 @@
-
 <template>
 	<div class="lazy-lode">
 		<h2 class="mp-modtitle">热销推荐</h2>
-		<div class="mp-hot-con">
-			<ul>
-				<li class="mp-hot-prod mp-border-bottom" v-for="item in recommendInfo" :key="item.id">
-					<div class="mp-hotlist-img image-ready">
-						<img :src="item.imgUrl" />
-					</div>
-					<div class="mp-hotlist-infos">
-						<div class="mp-hotlist-title">{{item.placeInfo}}</div>
-						<div class="mp-hotlist-desc">{{item.introduceInfo}}</div>
-					</div>
-					<div class="mp-price mp-hotlist-price">
-						￥
-						<em class="mp-price-num">{{item.specificInfo}}</em>
-						<span class="mp-price-text">起</span>
-					</div>
-				</li>
-			</ul>
-			<div class="mp-modmore">
-				<a href="">查看所有产品</a>
+		<div class="mp-hot-con" >
+			<div id="wrapper">
+				<div id="scroller">
+				<ul>
+					<li class="mp-hot-prod mp-border-bottom" v-for="item in recommendInfo" :key="item.id">
+						<div class="mp-hotlist-img image-ready">
+							<img :src="item.imgUrl" />
+						</div>
+						<div class="mp-hotlist-infos">
+							<div class="mp-hotlist-title">{{item.placeInfo}}</div>
+							<div class="mp-hotlist-desc">{{item.introduceInfo}}</div>
+						</div>
+						<div class="mp-price mp-hotlist-price">
+							￥
+							<em class="mp-price-num">{{item.specificInfo}}</em>
+							<span class="mp-price-text">起</span>
+						</div>
+					</li>
+				</ul>
+				</div>
 			</div>
+		</div>
+		<div class="mp-modmore">
+			<a href="">查看所有产品</a>
 		</div>
 	</div>
 </template>
 
 <script>
+
+	import IScroll from './iscroll-probe.js';
+	
 	export default {
 	    data(){
-	        return {}
+	        return {
+	        	showLoading: false
+	        }
 	    },
 
 	    computed: {
 	    	recommendInfo() {
 	    		return this.$store.state.home.recommendInfo;
 	    	}
+	    },
+
+	    mounted() {
+	    	this.myScroll = new IScroll('#wrapper', { probeType: 2,mouseWheel: true });
+	    	this.myScroll.on("scroll", () => {
+	    		 console.log(this.myScroll.y);
+	    		if (this.myScroll.y < (-this.recommendInfo.length * 90) + 150) {
+	    			this.showLoading = true;
+	    			this.$store.commit("refreshInfo");
+	    		}
+	    		if (this.myScroll.y > 50) {
+	    			this.showLoading = true;
+	    			this.$store.commit("refreshInfo");
+	    		}
+
+	    	})
+	    },
+
+	    updated(){
+	    	setTimeout(() => { 
+	    		this.showLoading = false;
+	    		this.myScroll.refresh();
+	    	}, 500)
 	    }
 	}
 </script>
 
 <style>
+	#wrapper{
+		height: 150px;
+		overflow: hidden;
+	}
 	.mp-modtitle{
 		height: .8rem;
     	padding-left: .26rem;

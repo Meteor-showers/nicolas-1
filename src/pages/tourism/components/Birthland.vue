@@ -117,11 +117,13 @@
  			<div class="card-more border-bottom">
  				查看详细产品介绍
  				<span class="iconfont icon-gengduo"></span>
+ 				<span class="iconfont">F</span>
  			</div>
  		</div>
  		<div class="prddetail-mapcon">
  			<div class="prddetail-map">
  				<img  class="timg" src="../img/timg.jpg">
+ 				<img src="http://map.baidu.com/">
  			</div>
  		</div>
  	</div>
@@ -260,6 +262,8 @@
      	margin-left: .1rem;
     	color: #9e9e9e;
     	font-size: .24rem;
+    	color: #9e9e9e;
+    	font-size: .24rem;
      }
      .prddetail-mapcon{
 	    height: 3.5rem;
@@ -284,4 +288,8 @@
      	vertical-align: middle;
      }
      
+     .map{
+     	width:.5rem;
+     	height:.5rem
+     }
 </style>

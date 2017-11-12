@@ -5,12 +5,9 @@
  			<div class="qchat-text">咨询</div>
  		</div>
  		<div class="fixbooking-btn flexbox-item">立即预定</div>
- 	
- 
  	</div>
+ </template>
  
-</template>
-
 <script>
 	export default {
  		
@@ -71,5 +68,4 @@
 	.flexbox-item{
 		flex:1;
 	}
-	
 </style>

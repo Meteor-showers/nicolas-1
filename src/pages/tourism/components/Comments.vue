@@ -100,8 +100,7 @@
  			</div>
  		</div>
  	</div>
- 	
- 	
+ 	</div>
 </template>
 
 <script>
@@ -109,6 +108,10 @@
 		
  	}
 </script>
+ 		
+ 	}
+</script>
+
 <style>
 	.comments-con{
 		margin-top: .2rem;
@@ -194,6 +197,10 @@
 	}
 	.prddetail-title{
 		overflow: hidden;
+	    background-color: #fff;
+    }
+    .comments-title{
+	    overflow: hidden;
 	    position: relative;
 	    height: .84rem;
 	    padding: 0 .2rem;
@@ -261,16 +268,16 @@
 	    white-space: nowrap;
 	}
 	.mpg-iconfont{
-		    font-family: 'mpiconfont';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
+		font-family: 'mpiconfont';
+	    speak: none;
+	    font-style: normal;
+	    font-weight: normal;
+	    font-variant: normal;
+	    text-transform: none;
+	    line-height: 1;
 	} 
 	.product-desctag-icon{
-		    white-space: nowrap;
+		white-space: nowrap;
 		
 	}
 	.product-desctag{
@@ -281,32 +288,32 @@
 	}
 	.product-desctag-icon{
 	    margin-right: .08rem;
-    color: #00afc7;
-    font-size: .24rem;
+    	color: #00afc7;
+    	font-size: .24rem;
     }
     .productprices-disandprice{
     	position: absolute;
-    top: 50%;
-    right: 0;
-    color: #9e9e9e;
-    font-size: .22rem;
-    line-height: .3rem;
-    text-align: right;
+	    top: 50%;
+	    right: 0;
+	    color: #9e9e9e;
+	    font-size: .22rem;
+	    line-height: .3rem;
+	    text-align: right;
     }
     .product-price{
     	text-align:right;
     	padding-right: .3rem;
-    color: #ff8300;
-    font-size: .18rem;
-    vertical-align: -.02rem;	
+	    color: #ff8300;
+	    font-size: .18rem;
+	    vertical-align: -.02rem;	
     }
     .price-num{
     	margin: 0 .04rem 0 .06rem;
-    font-size: .4rem;
+    	font-size: .4rem;
     }
     .product-arrow{
     	    position: absolute;
-    top: 50%;
-    right: .06rem;
+	    top: 50%;
+	    right: .06rem;
     }
 </style>
