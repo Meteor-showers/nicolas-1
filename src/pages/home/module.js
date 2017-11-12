@@ -4,8 +4,8 @@ export default {
 	state:{
 			swiperInfo: [],
 			IconSwiper: [],
-			recommendInfo: [],
 			acitivityInfo: [],
+			recommendInfo:[],
 			weekendInfo: []
 	},
 	actions:{
@@ -45,5 +45,6 @@ export default {
 	 		}
 	 	}
 	 }
-}
+	}
+
 			

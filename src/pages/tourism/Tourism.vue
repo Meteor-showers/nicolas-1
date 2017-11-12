@@ -8,8 +8,7 @@
  		<tourism-comments />
  		<tourism-qchat />
  		<tourism-add />
- 		<!--<tourism-choose />-->
- 	</div>
+ 		</div>
 </template>
 
 <script>

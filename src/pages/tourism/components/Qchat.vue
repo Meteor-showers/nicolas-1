@@ -6,8 +6,8 @@
  		</div>
  		<div class="fixbooking-btn flexbox-item">立即预定</div>
  	</div>
- </template>
- 
+</template>
+
 <script>
 	export default {
  		

@@ -1,7 +1,7 @@
-魏鹏娥 21:25:54
 <template>
 	<div>
  		<home-header/>
+
  		<swiper-content/>
  		<index-icon-swiper/>
  		<Acitivity-view />
@@ -29,6 +29,9 @@ export default {
 		"Acitivity-view": ActivityComponent,
 		"index-hotsale":Recommend,
 		"weekend-content": WeekendComponent
+//		"lazy-content": LazyComponent,
+
+//		"week-content": WeekComponent
 	},
 	methods: {
 

@@ -109,9 +109,6 @@
  	}
 </script>
  		
- 	}
-</script>
-
 <style>
 	.comments-con{
 		margin-top: .2rem;

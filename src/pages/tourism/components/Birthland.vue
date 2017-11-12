@@ -31,7 +31,6 @@
  					<span class="prddetail-date">07:30</span>
  					<div class="verticalline dark-dash prddetail-route">
  						<span class="timeline-nodeicon  iconfont icon-dingweixiao"></span>
- 						<span class="route-title">集合地点</span>
  						<p class="route-desc">北京市东城区天安门广场-国旗(地铁1号线天安门东，国旗杆下集合)</p>
  					</div>
  					
@@ -39,7 +38,6 @@
  					<span class="prddetail-date">07:30</span>
  					<div class="verticalline dark-dash prddetail-route">
  						<span class="timeline-nodeicon oneday-iconfont iconfont icon-refresh"></span>
- 						<span class="route-title">集合【天安门广场】约30分钟</span>
  						<p class="route-desc">城市中心广场——【天安门广场】，【毛主席纪念堂】，【人民英雄纪念碑】。</p>
  					</div>
  					</div>
@@ -236,7 +234,6 @@
 	    color: #00afc7;
 	    font-size: .28rem;
     }
-    
     .route-title{
     	color: #00afc7;
     	font-size:.28rem;
