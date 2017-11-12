@@ -1,4 +1,4 @@
-<template>
+<!--<template>
     <div class="activity">
     		<ul class="activity-top">
     			<li>
@@ -79,4 +79,4 @@
 		width:50%;
 	}
 
-</style>
+</style>-->
