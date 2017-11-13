@@ -1,7 +1,7 @@
- <template>
+<template>
  	<div class="fixbooking-con flexbox">
  		<div class="fixbooking-qchat border-topleft">
- 			<div class="iconfont qchat-icon">*</div>
+ 			<div class="iconfont qchat-icon icon-kefu"></div>
  			<div class="qchat-text">咨询</div>
  		</div>
  		<div class="fixbooking-btn flexbox-item">立即预定</div>

@@ -5,7 +5,7 @@
  				<div class="routesum-inner">
  					<div class="routesum-item">
  						<div class="routesum-title">
- 							<span class="oneday-iconfont routesum-icon">></span>
+ 							<span class="oneday-iconfont routesum-icon  iconfont icon-qichezhan"></span>
  							<span>交通</span>
  						</div>
  						<div class="routesum-content">汽车往返</div>
@@ -30,23 +30,21 @@
  				<div class="prddetail-content timeline">
  					<span class="prddetail-date">07:30</span>
  					<div class="verticalline dark-dash prddetail-route">
- 						<span class="timeline-nodeicon oneday-iconfont">></span>
- 						<span class="route-title">集合地点</span>
+ 						<span class="timeline-nodeicon  iconfont icon-dingweixiao"></span>
  						<p class="route-desc">北京市东城区天安门广场-国旗(地铁1号线天安门东，国旗杆下集合)</p>
  					</div>
  					
  					<div class="prddetail-content timeline">
  					<span class="prddetail-date">07:30</span>
  					<div class="verticalline dark-dash prddetail-route">
- 						<span class="timeline-nodeicon oneday-iconfont">></span>
- 						<span class="route-title">集合【天安门广场】约30分钟</span>
+ 						<span class="timeline-nodeicon oneday-iconfont iconfont icon-refresh"></span>
  						<p class="route-desc">城市中心广场——【天安门广场】，【毛主席纪念堂】，【人民英雄纪念碑】。</p>
  					</div>
  					</div>
  					<div class="prddetail-content timeline">
  					<span class="prddetail-date">08:00</span>
  					<div class="verticalline dark-dash prddetail-route">
- 						<span class="timeline-nodeicon oneday-iconfont">></span>
+ 						<span class="timeline-nodeicon oneday-iconfont iconfont icon-refresh"></span>
  						<span class="route-title">浏览【故宫博物院】约2.5个小时</span>
  						<p class="route-desc">【故宫博物院】（含首道门票，配无线耳麦设备使用）。故宫旧称紫禁城，被誉为世界五大宫殿之首。1988年被联合国教科文组织列为“世界文化遗产”，首批AAAAA景点。（游览约150分钟）
 【故宫开放时间】法定节假日和暑期7-8月-天天开放，其他时间实行每周一全天闭馆。
@@ -57,7 +55,7 @@
  				<div class="prddetail-content timeline">
  					<span class="prddetail-date">11:00</span>
  					<div class="verticalline dark-dash prddetail-route">
- 						<span class="timeline-nodeicon oneday-iconfont">></span>
+ 						<span class="timeline-nodeicon oneday-iconfont iconfont icon-canting"></span>
  						<span class="route-title">【午餐自理】自行用餐30分钟</span>
  						<p class="route-desc">11：30 【神武门】出，中餐自理，导游根据实际时间安排，会给大家用餐的推荐餐厅；也可自带食物；</p>
  					</div>
@@ -66,7 +64,7 @@
  				<div class="prddetail-content timeline">
  					<span class="prddetail-date">11:30</span>
  					<div class="verticalline dark-dash prddetail-route">
- 						<span class="timeline-nodeicon oneday-iconfont">></span>
+ 						<span class="timeline-nodeicon oneday-iconfont iconfont icon-qichezhan"></span>
  						<span class="route-title">前往【八达岭长城】车程约2小时</span>
  						<p class="route-desc">集合完毕，出发前往5A景点【八达岭长城】，车程约2小时，途中经过【居庸关长城】只在车上瞭望，在【八达岭长城】方攀登游览。</p>
  					</div>
@@ -75,7 +73,7 @@
  				<div class="prddetail-content timeline">
  					<span class="prddetail-date">14:30</span>
  					<div class="verticalline dark-dash prddetail-route">
- 						<span class="timeline-nodeicon oneday-iconfont">></span>
+ 						<span class="timeline-nodeicon oneday-iconfont iconfont icon-refresh"></span>
  						<span class="route-title">游览【八达岭长城】约2-2.5小时</span>
  						<p class="route-desc">到达AAAAA级风景区、国家名片、世界文化遗产、中华民族的精神象征——【八达岭长城】 约2小时-2.5小时，（八达岭缆车往返140元/人，1.2米以下免费，1.2米以上无老人学生等优惠）。</p>
  					</div>
@@ -84,7 +82,7 @@
  				<div class="prddetail-content timeline">
  					<span class="prddetail-date">14:39</span>
  					<div class="verticalline dark-dash prddetail-route">
- 						<span class="timeline-nodeicon oneday-iconfont">></span>
+ 						<span class="timeline-nodeicon oneday-iconfont iconfont icon-refresh"></span>
  						<span class="route-title">可升级体验【直升飞机空中游长城】</span>
  						<p class="route-desc">10分钟，1人起订，加888元/人，   
 15分钟，1人起订，加1288元/人，
@@ -97,7 +95,7 @@
  				<div class="prddetail-content timeline">
  					<span class="prddetail-date">15:39</span>
  					<div class="verticalline dark-dash prddetail-route">
- 						<span class="timeline-nodeicon oneday-iconfont">></span>
+ 						<span class="timeline-nodeicon oneday-iconfont iconfont icon-qichezhan"></span>
  						<span class="route-title">【鸟巢水立方】直接散团</span>
  						<p class="route-desc">2008奥运会主会场【国家奥林匹克中心】 外观【鸟巢】、【水立方】 ， 入内门票需要自理。可以直接选择解散。</p>
  					</div>
@@ -106,7 +104,7 @@
  				<div class="prddetail-content timeline">
  					<span class="prddetail-date">18:39</span>
  					<div class="verticalline dark-dash prddetail-route">
- 						<span class="timeline-nodeicon oneday-iconfont">></span>
+ 						<span class="timeline-nodeicon oneday-iconfont iconfont icon-biao"></span>
  						<span class="route-title">返程</span>
  						<p class="route-desc">行程结束后将您送回【鸟巢水立方】解散。</p>
  					</div>
@@ -116,11 +114,13 @@
  		<div class="card-moreoutter">
  			<div class="card-more border-bottom">
  				查看详细产品介绍
+ 				<span class="iconfont icon-gengduo"></span>
  				<span class="iconfont">F</span>
  			</div>
  		</div>
  		<div class="prddetail-mapcon">
  			<div class="prddetail-map">
+ 				<img  class="timg" src="../img/timg.jpg">
  				<img src="http://map.baidu.com/">
  			</div>
  		</div>
@@ -257,8 +257,10 @@
     }
      .iconfont{
      	margin-left: .1rem;
-    color: #9e9e9e;
-    font-size: .24rem;
+    	color: #9e9e9e;
+    	font-size: .24rem;
+    	color: #9e9e9e;
+    	font-size: .24rem;
      }
      .prddetail-mapcon{
 	    height: 3.5rem;
@@ -277,6 +279,12 @@
 	    width:100%;
 	    height:100%;
      }
+     .map .timg{
+     	width:.5rem;
+     	height:.5rem;
+     	vertical-align: middle;
+     }
+     
      .map{
      	width:.5rem;
      	height:.5rem

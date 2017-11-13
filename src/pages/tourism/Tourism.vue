@@ -7,7 +7,8 @@
  		<tourism-guide />
  		<tourism-comments />
  		<tourism-qchat />
- 	</div>
+ 		<tourism-add />
+ 		</div>
 </template>
 
 <script>
@@ -18,6 +19,8 @@ import PricedetailComponent from "./components/Pricedetail";
 import GuideComponent from "./components/Guide";
 import CommentsComponent from "./components/Comments";
 import QchatComponent from "./components/Qchat";
+import addComponent from "./components/add";
+//import chooseComponent from "./components/choose";
 
 export default {
 	components: {
@@ -27,7 +30,9 @@ export default {
 		"tourism-price": PricedetailComponent,
 		"tourism-guide": GuideComponent,
 		"tourism-comments": CommentsComponent,
-		"tourism-qchat": QchatComponent
+		"tourism-qchat": QchatComponent,
+		"tourism-add": addComponent,
+//		"tourism-choose": chooseComponent
 	}
 }
 </script>

@@ -5,13 +5,10 @@ import Palace from '@/pages/palace-museum/Palace'
 import Pic from '@/pages/palace-museum/Pic'
 import Header from '@/pages/palace-museum/Header'
 import List from '@/pages/list/List'
-
-import City from '@/pages/city/City'
 import Tourism from '@/pages/tourism/Tourism'
+import City from '@/pages/city/City'
 import Order from '@/pages/order-information/Order'
 import oneDay from '@/pages/oneDay/oneDay'
-
-
 import Bobparr from '@/pages/Bobparr/Bobparr'
 
 
@@ -66,7 +63,6 @@ export default new Router({
       path: '/oneDay',
       name: 'oneDay',
       component: oneDay
-
     }
   ]
 })

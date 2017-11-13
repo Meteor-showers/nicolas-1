@@ -11,7 +11,6 @@
 			"imgUrl":"/static/img/e395615b16fb1302.png",
 			"link": "/list"
 		}],
-
 		"swiperInfo": [{
 			"id": 1,
 			"imgUrl": "http://img1.qunarzz.com/piao/fusion/1609/15/630b82d932a3c402.jpg_640x200_862e836b.jpg",
@@ -107,35 +106,34 @@
 			"link": "/list",
 			"Intro": "全部"
 		}],
-
 		"weekendInfo": [{
 			"id":1,
 			"imgUrl": "http://img1.qunarzz.com/sight/source/1509/81/0412da9c4db66a.jpg_r_640x214_8e23871e.jpg",
-			"link": "/list",
+			"link": "/tourism",
 			"name": "北京温泉排行榜",
 			"note":"细数北京温泉,温暖你的冬天"
 		},{
 			"id":2,
 			"imgUrl": "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
-			"link": "/list",
+			"link": "/tourism",
 			"name": "寻找北京的皇城范儿",
 			"note":"数百年的宫廷庙宇,至今依旧威严霸气"
 		},{
 			"id":3,
 			"imgUrl": "http://img1.qunarzz.com/sight/source/1505/aa/7baaf8a851d221.jpg_r_640x214_1431200f.jpg",
-			"link": "/list",
+			"link": "/tourism",
 			"name": "北京必游top10",
 			"note":"来北京必去的地方非这些地方莫属"
 		},{
 			"id":4,
 			"imgUrl": "http://img1.qunarzz.com/sight/source/1509/81/0412da9c4db66a.jpg_r_640x214_8e23871e.jpg",
-			"link": "/list",
+			"link": "/tourism",
 			"name": "登高望远秋色佳",
 			"note":"山顶满眼彩色,此情此景醉了"
 		},{
 			"id":5,
 			"imgUrl": "http://img1.qunarzz.com/sight/source/1509/28/1bb74b851279e6.jpg_r_640x214_64ebf0ee.jpg",
-			"link": "/list",
+			"link": "/tourism",
 			"name": "秋高气爽去礼佛",
 			"note":"秋风伴着美妙经声,品尝秋的另一番滋味"
 

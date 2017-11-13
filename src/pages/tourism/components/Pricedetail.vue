@@ -164,7 +164,7 @@
     }
     .structure-title {
     	position: absolute;
-	    top: 50%;
+	    top: 20%;
 	    padding: .2rem 0;
 	    width: 1.8rem;
 	    text-align: center;

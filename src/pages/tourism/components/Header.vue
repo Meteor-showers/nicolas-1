@@ -22,19 +22,19 @@
  					</div>
  					<div class="prdcard-tag">
  						<div class="prdcard-tag-item">
- 							<span class="prdcard-icon">></span>
+ 							<span class="prdcard-icon iconfont icon-duihao"></span>
  							<span class="prdcard-font">条件退</span>
  						</div>
  						<div class="prdcard-tag-item">
- 							<span class="prdcard-icon">></span>
+ 							<span class="prdcard-icon iconfont icon-duihao"></span>
  							<span class="prdcard-font">铁定成团</span>
  						</div>
  						<div class="prdcard-tag-item">
- 							<span class="prdcard-icon">></span>
+ 							<span class="prdcard-icon iconfont icon-duihao"></span>
  							<span class="prdcard-font">无自费</span>
  						</div>
  						<div class="prdcard-tag-item">
- 							<span class="prdcard-icon">></span>
+ 							<span class="prdcard-icon iconfont icon-duihao"></span>
  							<span class="prdcard-font">无购物</span>
  						</div>
  					</div>
@@ -44,7 +44,7 @@
  						<span class="comments-good">非常满意</span>
  						<span class="comments-numbers">
  							用户评价(299)
- 							<span class="comments-icon">></span>
+ 							<span class="comments-icon iconfont icon-gengduo"></span>
  						</span>
  					</div>
  				</div>
@@ -72,11 +72,6 @@ export default {
 
 <style>
 	.tourism-page{
-		/*position: absolute;
-	    top: 0;
-	    left: 0;
-	    width: 100%;
-	    min-height: 100%;*/
 	    background: #f1f5f6;
 	}
 	.tourism-header{

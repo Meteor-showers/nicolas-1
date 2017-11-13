@@ -31,19 +31,20 @@ export default {
 		refreshInfo(state, data) {
 			state.recommendInfo.push(...state.recommendInfo);
 		}
+	},
+	 // getters:{
+	 // 	shouldGetData(state){
+	 // 		if (!state.swiperInfo.length &&
+	 // 			!state.IconSwiper.length &&
+	 // 			!state.acitivityInfo.length &&
+	 // 			!state.weekendInfo.length &&
+	 // 			!state.recommendInfo.length) {
+	 // 			return true
+	 // 		}else {
+	 // 			return false;
+	 // 		}
+	 // 	}
+	 // }
 	}
-	// getters:{
-	// 	shouldGetData(state){
-	// 		if (!state.swiperInfo.length &&
-	// 			!state.IconSwiper.length &&
-	// 			!state.acitivityInfo.length &&
-	// 			!state.weekendInfo.length &&
-	// 			!state.recommendInfo.length) {
-	// 			return true
-	// 		}else {
-	// 			return false;
-	// 		}
-	// 	}
-	// }
-}
+
 			
