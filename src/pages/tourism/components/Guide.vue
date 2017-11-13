@@ -32,11 +32,7 @@
 		</div>
 		<div class="prddetail-more prddetail-hasmore">
 			<span class="moreText">更多使用说明</span>
-<<<<<<< HEAD
-			<span class="iconfont prddetail-arrow icon-gengduo"></span>
-=======
 			<span class="iconfont prddetail-arrow">E</span>
->>>>>>> f5b97961fb2a63c45f4246fa747552b76f8bccf5
 		</div>
 	</div>
 </template>
